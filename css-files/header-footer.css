@@ -74,34 +74,21 @@ html, body {
   /* FOOTER */
   .page-footer {
     display: flex;
+    font-size: 25px;
+    text-align: center;
+    line-height: normal;
   }
 
   .page-footer a {
     color: black;
     text-decoration: none;
+    font-size: 20px;
   }
 
   .footer-about, .footer-work,.footer-services-1, .footer-services-2, .social-media {
-    margin-left: 55px;
-    margin-right: 55px;
-  }
-
-  .footer-about a, .footer-work a, .footer-services-1 a, .footer-services-2 a {
-    font-size: 20px;
-    size: 20px;
-    margin-left: 20px;
-  }
-
-  .footer-about a, .footer-work a {
-    margin-left: 20px;
-  }
-
-  .footer-services-1 a {
-    margin-left: 60px;
-  }
-
-  .footer-services-2 a {
     margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 10px;
   }
 
   /* END FOOTER*/
