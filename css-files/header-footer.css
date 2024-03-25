@@ -60,6 +60,16 @@ html, body {
     display: flex;
   }
 
+  .page-footer a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .footer-about, .footer-work,.footer-services-1, .footer-services-2, .social-media {
+    margin-left: 55px;
+    margin-right: 55px;
+  }
+
   /* END FOOTER*/
 
   /* SEARCH BAR */
