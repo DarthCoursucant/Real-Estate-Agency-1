@@ -105,34 +105,3 @@ html, body {
   }
 
   /* END FOOTER*/
-
-  /* SEARCH BAR */
-
-  .search-container {
-    text-align: center;
-  }
-  
-  /*Input Search Box Code*/
-  input[type="text"] {
-    padding: 10px;
-    font-size: 15px;
-    width: 350px;
-    margin-left: -200px;
-    margin-top: 20px;
-    border-radius: 20px;
-    
-  }
-  
-  /*Submitt Search Comment Button Code*/
-  button {
-    padding: 12px 15px;
-    font-size: 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    width: 140px;
-    border-radius: 15px;
-  }
-
-  /* END SEARCH BAR */
