@@ -3,7 +3,7 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-color: #045d5d; /* 2. Same as header and footer, does not worj in codepen*/
+    background-color: #045d5d; /* Same as header and footer */
   }
   
   body {
@@ -14,7 +14,7 @@ html, body {
   }
   
   header.page-header, footer.page-footer {
-    flex-grow: 0; /* 0. Only takes the place it needs */
+    flex-grow: 0; /* Only takes the place it needs */
     flex-shrink: 0;
     color: #fafafa;
     background-color: #045d5d;
@@ -22,8 +22,15 @@ html, body {
   }
   
   main.page-body {
-    flex-grow: 1; /* 1. Let main take all available space */
+    flex-grow: 1; /* Lets main take all available space */
     padding: 0 10px;
     background-color: #fafafa;
     color: black;
+  }
+
+  #header-logo img {
+    height: 80px;
+    width: 110px;
+    border-radius: 20px;
+    float: left;
   }
