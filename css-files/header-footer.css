@@ -70,9 +70,22 @@ html, body {
     margin-right: 55px;
   }
 
-  .footer-about a, .footer-work a,.footer-services-1 a, .footer-services-2 a {
+  .footer-about a, .footer-work a, .footer-services-1 a, .footer-services-2 a {
     font-size: 20px;
     size: 20px;
+    margin-left: 20px;
+  }
+
+  .footer-about a, .footer-work a {
+    margin-left: 20px;
+  }
+
+  .footer-services-1 a {
+    margin-left: 60px;
+  }
+
+  .footer-services-2 a {
+    margin-left: 70px;
   }
 
   /* END FOOTER*/
