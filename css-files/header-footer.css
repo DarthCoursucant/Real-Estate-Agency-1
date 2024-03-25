@@ -4,7 +4,7 @@ html, body {
     height: 100%;
     padding: 0;
     margin: 0;
-    background-color: #045d5d; /* Same as header and footer */
+    background-color: #456470; /* Same as header and footer */
   }
   
   body {
@@ -18,7 +18,7 @@ html, body {
     flex-grow: 0; /* Only takes the place it needs */
     flex-shrink: 0;
     color: #fafafa;
-    background-color: #045d5d;
+    background-color: #456470;
     padding: 10px;
   }
   
