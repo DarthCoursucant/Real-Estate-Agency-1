@@ -55,6 +55,13 @@ html, body {
 
   /* END HEADER CODE */
 
+  /* FOOTER */
+  .page-footer {
+    display: flex;
+  }
+
+  /* END FOOTER*/
+
   /* SEARCH BAR */
 
   .search-container {
