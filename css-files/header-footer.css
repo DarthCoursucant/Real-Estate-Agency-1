@@ -37,7 +37,7 @@ html, body {
     height: 80px;
     width: 110px;
     float: left;
-    padding-top: 20px;
+    padding-top: 5px;
     padding-left: 20px;
   }
 
@@ -47,7 +47,7 @@ html, body {
     padding-right: 15px;
     padding-left: 10px;
     padding-bottom: 20px;
-    padding-top: -100px;
+    padding-top: 30px;
     float: right;
   }
 
@@ -66,7 +66,7 @@ html, body {
 
   #links-header {
     padding-bottom: 10px;
-    padding-top: -70px;
+    padding-top: 40px;
   }
 
   /* END HEADER CODE */
