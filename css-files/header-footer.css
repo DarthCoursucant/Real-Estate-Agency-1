@@ -24,7 +24,7 @@ html, body {
   
   main.page-body {
     flex-grow: 1; /* Lets main take all available space */
-    padding: 0 10px;
+    padding: 0px; /* endret det til 0*/
     background-color: #fafafa;
     color: black;
   }
