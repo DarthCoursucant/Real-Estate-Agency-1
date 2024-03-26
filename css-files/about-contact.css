@@ -1,0 +1,79 @@
+.hero-image-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://agile.org.uk/wp-content/uploads/2023/09/Office-Interior-Design.jpg')
+}
+
+.hero-image-contact {
+  width: 950px;
+  height: 600px;
+  margin-left: 20px;
+  display: flex;
+  float: center;
+}
+
+ /*Text Code*/
+  .text {
+    font-size: 15px;
+    float: left;
+    text-align: center;
+  }
+
+/*Main Form Setting*/
+  .contactform, .checkoutform {
+    color: #000000;
+    padding-top: 70px;
+    padding-left: 50px;
+    width: 900px;
+    padding-bottom: 20px;
+  }
+
+
+ /*List Settings*/
+  ul {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+  }
+  
+  /*Length Of The Text In Form*/
+  label {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+  }
+  
+  /*Input Field After This Sign*/
+  label::after {
+    content: ":";
+  }
+
+  /*Input Area Code*/
+  input,textarea {
+  font: 1em sans-serif;
+  width: 350px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  outline: none;
+  background-color: #C0A9BD;
+}
+
+/*Comment Field Code*/
+textarea {
+  vertical-align: middle;
+  height: 5em;
+  resize: vertical;
+  resize: none;
+}
+
+/*Button In The Form*/
+form a {
+  border: 2px solid #C0A9BD;
+  background-color: #000000;
+  float: auto;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 200px;
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
