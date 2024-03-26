@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .top-pic {
   background-color: black;
   margin-top: 0px;
@@ -106,7 +110,7 @@
 
 .properties {
   display: flex;
-  gap: 30px;
+  gap: 45px;
 }
 
 .property {
@@ -115,14 +119,17 @@
   width: 330px;
   height: 375px;
   background-color: #456470;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+  &:hover {
+    transform: scale(1.15);
+  }
 }
 
 .property img {
   width: 330px;
   height: 250px;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .property-text {
@@ -141,4 +148,65 @@
 
 .property-text span {
   font-size: 26px;
+}
+
+.property-continue {
+  background: black;
+  border-radius: 5px;
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
+.property-next-button {
+  position: absolute;
+  background-color: green;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 99999px;
+  opacity: 100%;
+  z-index: 1;
+  top: 108%;
+  left: 90%;
+  &:hover {
+    transform: scale(1.5);
+  }
+}
+
+#last-property {
+  opacity: 25%;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 375px;
+  background-color: #456470;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+
+   img {
+    width: 330px;
+    height: 250px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  
+  .property-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    line-height: 15px;
+  }
+  
+  .property-text p {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .property-text span {
+    font-size: 26px;
+  }
 }
