@@ -3,9 +3,10 @@
 }
 
 .hero-image-contact {
-  width: 950px;
-  height: 600px;
-  margin-left: 20px;
+  width: 1000px;
+  height: 530px;
+  margin-left: 180px;
+  padding-top: 20px;
   display: flex;
   float: center;
 }
