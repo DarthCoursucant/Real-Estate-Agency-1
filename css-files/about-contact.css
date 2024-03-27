@@ -43,10 +43,21 @@
 .hero-image-contact, .hero-image-contact1, .hero-image-contact2, .hero-image-contac3, .hero-image-contact4, .hero-image-contact5 {
   width: 450px;
   margin-left: 20px;
-  border-radius: 15px;
+  border-radius: 20px;
+  height: 250px;
+}
+
+.contact-text-larger {
+  font-size: 25px;
 }
 
 .hero-text-contact {
   text-align: center;
   color: white;
+  font-size: 15px;
+}
+
+.hero-text-contact a {
+  text-decoration: none;
+  color: red;
 }
