@@ -1,80 +1,39 @@
-.hero-image-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://agile.org.uk/wp-content/uploads/2023/09/Office-Interior-Design.jpg')
-}
-
-.hero-image-contact {
-  width: 1000px;
-  height: 530px;
-  margin-left: 180px;
-  padding-top: 20px;
-  display: flex;
-  float: center;
-}
-
- /*Text Code*/
-  .text {
-    font-size: 15px;
-    float: left;
-    text-align: center;
-  }
-
-/*Main Form Setting*/
-  .contactform, .checkoutform {
-    color: #000000;
-    padding-top: 70px;
-    padding-left: 50px;
-    width: 900px;
-    padding-bottom: 20px;
-  }
-
-
- /*List Settings*/
-  ul {
-    list-style: none;
-    padding: 10px;
-    margin: 10px;
-    float: left;
-  }
-  
-  /*Length Of The Text In Form*/
-  label {
-    display: inline-block;
-    width: 400px;
-    text-align: center;
-  }
-  
-  /*Input Field After This Sign*/
-  label::after {
-    content: ":";
-  }
-
-  /*Input Area Code*/
-  input,textarea {
-  font: 1em sans-serif;
-  width: 350px;
-  box-sizing: border-box;
-  border: 2px solid #000000;
-  outline: none;
-  background-color: #C0A9BD;
-}
-
-/*Comment Field Code*/
-textarea {
-  vertical-align: middle;
-  height: 5em;
-  resize: vertical;
-  resize: none;
-}
-
-/*Button In The Form*/
-form a {
-  border: 2px solid #C0A9BD;
-  background-color: #000000;
-  float: auto;
-  cursor: pointer;
+.contact-info-box {
+  font-size: 17px;
+  border: 2px solid black;
+  width: 800px;
+  margin-left: 340px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
   border-radius: 15px;
-  margin: 200px;
-  padding: 10px;
-  text-decoration: none;
-  color: #ffffff;
+}
+
+.hero-image-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.grollohomes.com.au/wp-content/uploads/2020/03/Prospect-cover-01.jpg')
+}
+
+.hero-image-contact1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://loveincorporated.blob.core.windows.net/contentimages/gallery/57935e99-bcf6-4078-a04b-34b60bffc72d-the-worlds-most-spectacular-modern-homes-dubai-ext.jpg')
+}
+
+.hero-image-contact2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i0.wp.com/jewkesdesign.com/wp-content/uploads/2023/04/Jewkes-Design_Black-Modern-House_04.jpg?resize=1024%2C683&ssl=1')
+}
+
+.hero-image-contac3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://hips.hearstapps.com/hmg-prod/images/edc020124lauder-004-656776cf4986f.jpg?crop=1xw:1xh;center,top&resize=980:*')
+}
+
+.hero-image-contact4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.homedit.com/wp-content/uploads/2022/01/Modern-house-design.jpg')
+}
+
+.hero-image-contact5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/52/48/31/524831663eabe1305d69c1d0ec939bed.jpg')
+}
+
+.contact-flex, .contact-flex1 {
+  display: flex;
 }
