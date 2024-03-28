@@ -95,3 +95,15 @@
   display: flex; 
   margin-bottom: 30px;
 }
+
+.contact-button a {
+  background-color: #203036;
+  padding: 20px;
+  margin-inline: auto;
+}
+
+.contact-button {
+  font-size: 17px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
