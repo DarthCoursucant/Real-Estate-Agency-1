@@ -1,0 +1,109 @@
+.contact-info-box {
+  font-size: 17px;
+  border: 2px solid black;
+  margin-left: 340px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 15px;
+  width: 800px;
+  background-color: #0C1435;
+  color: #ffffff;
+}
+
+.contact-business {
+  border: 2px solid black;
+  background-color: #0C1435;
+  width: 550px;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 15px;
+  margin-left: 435px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.hero-image-contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.grollohomes.com.au/wp-content/uploads/2020/03/Prospect-cover-01.jpg')
+}
+
+.hero-image-contact1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://loveincorporated.blob.core.windows.net/contentimages/gallery/57935e99-bcf6-4078-a04b-34b60bffc72d-the-worlds-most-spectacular-modern-homes-dubai-ext.jpg')
+}
+
+.hero-image-contact2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i0.wp.com/jewkesdesign.com/wp-content/uploads/2023/04/Jewkes-Design_Black-Modern-House_04.jpg?resize=1024%2C683&ssl=1')
+}
+
+.hero-image-contac3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://hips.hearstapps.com/hmg-prod/images/edc020124lauder-004-656776cf4986f.jpg?crop=1xw:1xh;center,top&resize=980:*')
+}
+
+.hero-image-contact4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.homedit.com/wp-content/uploads/2022/01/Modern-house-design.jpg')
+}
+
+.hero-image-contact5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/52/48/31/524831663eabe1305d69c1d0ec939bed.jpg')
+}
+
+.contact-flex, .contact-flex1 {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.hero-image-contact, .hero-image-contact1, .hero-image-contact2, .hero-image-contac3, .hero-image-contact4, .hero-image-contact5 {
+  width: 450px;
+  margin-left: 20px;
+  border-radius: 20px;
+  height: 250px;
+  border: 2px solid black;
+}
+
+.contact-text-larger {
+  font-size: 25px;
+}
+
+.hero-text-contact {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.hero-text-contact a {
+  text-decoration: none;
+  color: red;
+}
+
+.flex-contact > div {
+  width: 250px;
+  height: 100px;
+  border: 2px solid #000000;
+  background-color: #747373;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 17px;
+  border-radius: 15px;
+  margin-inline: auto;
+}
+
+.flex-contact {
+  display: flex; 
+  margin-bottom: 30px;
+}
+
+.contact-button a {
+  background-color: #203036;
+  padding: 20px;
+  margin-inline: auto;
+}
+
+.contact-button {
+  font-size: 17px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
