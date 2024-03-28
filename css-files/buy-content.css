@@ -29,12 +29,12 @@
     border-radius: 20px;
 }
 
-.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a, .sweden a, .norway a, .usa a, .canada a, .wales a, .scotland a, .austria a, .croatia a, .denmark a, .romania a {
+.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a, .sweden a, .norway a, .usa a, .canada a, .wales a, .scotland a, .austria a, .croatia a, .denmark a, .romania a, .finland a, .czechia a, .bulgaria a, .hungary a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum, .sweden, .norway, .usa, .canada, .wales, .scotland, .austria, .croatia, .denmark, .romania {
+.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum, .sweden, .norway, .usa, .canada, .wales, .scotland, .austria, .croatia, .denmark, .romania, .finland, .czechia, .bulgaria, .hungary {
     background-color: #0C1435;
     margin-left: 40px;
     width: 310px;
