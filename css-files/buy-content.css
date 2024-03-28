@@ -11,7 +11,7 @@
     border-radius: 20px;
 }
 
-.flex-most-options {
+.flex-most-options, .flex-country-options, .flex-country-options1, .flex-country-options2 {
     display: flex;
 }
 
@@ -20,8 +20,8 @@
     margin-top: 50px;
 }
 
-.popular, .iconic {
-    background-color: #0C1435;
+.popular, .iconic  {
+    background-color: #203036;
     width: 400px;
     text-align: center;
     padding-top: 20px;
@@ -29,7 +29,17 @@
     border-radius: 20px;
 }
 
-.popular a, .iconic a {
+.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.italy, .switzerland, .engalnd, .germany, .france {
+    background-color: #0C1435;
+    margin-left: 40px;
+    width: 310px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20px;
 }
