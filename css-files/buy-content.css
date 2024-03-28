@@ -11,8 +11,12 @@
     border-radius: 20px;
 }
 
-.flex-most-options, .flex-country-options, .flex-country-options1, .flex-country-options2, .flex-country-option3, .flex-country-option4, .flex-country-option5, .flex-country-option6, .flex-country-option7, .flex-country-options8, .flex-country-options9, .flex-country-options10, .flex-country-options11, .flex-country-options12, .flex-country-options13, .flex-country-option14, .flex-last-option {
+.flex-most-options, .flex-container-first, .flex-container-second, .flex-container-third, .flex-container-four, .flex-container-five, .flex-container-six, .flex-container-seven, .flex-container-eight, .flex-container-last {
     display: flex;
+}
+
+.flex-container-first, .flex-container-second, .flex-container-third, .flex-container-four, .flex-container-five, .flex-container-six, .flex-container-seven, .flex-container-eight, .flex-container-last {
+    margin-left: -10px;
 }
 
 .popular, .iconic {
@@ -29,17 +33,19 @@
     border-radius: 20px;
 }
 
-.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a, .sweden a, .norway a, .usa a, .canada a, .wales a, .scotland a, .austria a, .croatia a, .denmark a, .romania a, .finland a, .czechia a, .bulgaria a, .hungary a, .luxemborg a, .malta a, .slovenia a, .estonia a, .serbia a, .lithuania a, .slovakia a, .monacco a, .latvia a, .san a, .faroe a, .gibraltar a, .isle a, .egypt a, .south a, .moracco a {
+.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a, .sweden a, .norway a, .usa a, .canada a, .wales a, .scotland a, .austria a, .croatia a, .denmark a, .romania a, .finland a, .czechia a, .bulgaria a, .hungary a, .luxemborg a, .malta a, .slovenia a, .estonia a, .serbia a, .lithuania a, .slovakia a, .monacco a, .latvia a, .san a, .faroe a, .gibraltar a, .isle a, .egypt a, .south a, .moracco a, .indonasia a, .japan a, .thailand a, .uae a, .maledives a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum, .sweden, .norway, .usa, .canada, .wales, .scotland, .austria, .croatia, .denmark, .romania, .finland, .czechia, .bulgaria, .hungary, .luxemborg, .malta, .slovenia, .estonia, .serbia, .lithuania, .slovakia, .monacco, .latvia, .san, .faroe, .gibraltar, .isle, .egypt, .south, .moracco {
+.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum, .sweden, .norway, .usa, .canada, .wales, .scotland, .austria, .croatia, .denmark, .romania, .finland, .czechia, .bulgaria, .hungary, .luxemborg, .malta, .slovenia, .estonia, .serbia, .lithuania, .slovakia, .monacco, .latvia, .san, .faroe, .gibraltar, .isle, .egypt, .south, .moracco, .indonasia, .japan, .thailand, .uae, .maledives {
     background-color: #0C1435;
-    margin-left: 40px;
-    width: 310px;
+    margin-left: 10px;
+    width: 200px;
     margin-top: 40px;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 20px;
+    padding: 10px;
+
 }
