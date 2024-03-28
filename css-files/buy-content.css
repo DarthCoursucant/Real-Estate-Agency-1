@@ -10,3 +10,26 @@
     margin-left: 400px;
     border-radius: 20px;
 }
+
+.flex-most-options {
+    display: flex;
+}
+
+.popular, .iconic {
+    margin-left: 230px;
+    margin-top: 50px;
+}
+
+.popular, .iconic {
+    background-color: #0C1435;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.popular a, .iconic a {
+    text-decoration: none;
+    color: #ffffff;
+}
