@@ -29,12 +29,12 @@
     border-radius: 20px;
 }
 
-.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a {
+.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a, .sweden a, .norway a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum {
+.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum, .sweden, .norway {
     background-color: #0C1435;
     margin-left: 40px;
     width: 310px;
