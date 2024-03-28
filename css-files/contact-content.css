@@ -76,14 +76,15 @@
 .flex-contact > div {
   width: 250px;
   height: 100px;
-  border: 2px solid #000000;
-  background-color: #747373;
+  border: 2px solid #;
+  background-color: #0C1435;
   margin: 10px;
   text-align: center;
   line-height: 25px;
   font-size: 17px;
   border-radius: 15px;
   margin-inline: auto;
+  color: #ffffff;
 }
 
 .flex-contact {
