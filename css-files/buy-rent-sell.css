@@ -56,7 +56,19 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/98/41/74/360_F_198417434_F3bEfozQ7dNiJyauakh3Su7YTBkkXDCc.jpg')
 }
 
-.hero-italy-image, .hero-canada-image, .hero-maldives-image, .hero-singapore-image, .hero-isreal-image, .hero-usa-image, .hero-switzerland-image, .hero-scotland-image, .hero-sri-lanka-image, .hero-denamrk-image, .hero-latvia-image {
+.hero-uae-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://st2.depositphotos.com/3659429/5297/i/450/depositphotos_52974723-stock-photo-flag-of-the-united-arab.jpg')
+}
+
+.hero-england-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/966189764/photo/flag-of-england-background.jpg?s=612x612&w=0&k=20&c=Pvkxejt_gxctu7YJtDpnCBVZEZdQZk8x7aMTs2S660U=')
+}
+
+.hero-germany-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg')
+}
+
+.hero-italy-image, .hero-canada-image, .hero-maldives-image, .hero-singapore-image, .hero-isreal-image, .hero-usa-image, .hero-switzerland-image, .hero-scotland-image, .hero-sri-lanka-image, .hero-denamrk-image, .hero-latvia-image, .hero-uae-image, .hero-england-image, .hero-germany-image {
     width: 265px;
     height: 150px;
     margin-left: 20px;
