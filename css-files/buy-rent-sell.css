@@ -177,9 +177,33 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/62/19/54/360_F_62195416_wfzM4Baz70OjEU54EhsCpvuQWlIhukPg.jpg')
 }
 
+.hero-philliphs-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/81/82/84/360_F_181828448_83EkBoXk1RpUmCQxSoq5J376UHYC4xs2.jpg')
+}
+
+.hero-turkey-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-vector/turkey-flag-design-waving-turkish-flag-made-satin-silk-fabric-vector-illustration_191567-70.jpg')
+}
+
+.hero-sri-lanka-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/989948936/photo/flag-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=8DcmNrmGh-ER6mxfs9-S17GEsQ31f4rNJVtpJsKQZJM=')
+}
+
+.hero-thailand-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/41/02/7c/41027c44427e666b9a71c57a9bf95c1e.jpg')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
     width: 250px;
     margin-left: -780px;
+    margin-bottom: 20px;
+}
+
+.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image {
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 100px;
 }
