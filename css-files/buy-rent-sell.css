@@ -14,7 +14,7 @@
 
 .wrap { flex-wrap: wrap; }
 
-.flex-europe-constiries-box, .flex-asia-constiries-box, .flex-oceania-constiries-box {
+.flex-europe-constiries-box, .flex-asia-constiries-box, .flex-oceania-constiries-box, .flex-africa-constiries-box {
     display: flex;
     border: 2px solid #000000;
     width: 1400px;
@@ -24,7 +24,7 @@
     border-radius: 20px;
 }
 
-.box-title, .asia-box-title, .oceania-box-title {
+.box-title, .asia-box-title, .oceania-box-title, .africa-box-title {
     text-align: center;
     padding-left: 590px;
 }
