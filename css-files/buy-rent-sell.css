@@ -278,6 +278,10 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/981402600/photo/colombia-flag-waving-background.jpg?s=612x612&w=0&k=20&c=vXnWyaKGe34KVWiuaBsHJqqsNPpUDZ4F3TG2QtWwneo=')
 }
 
+.hero-domnician-republic-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.ebayimg.com/images/g/rVYAAOSwJVtjQH-V/s-l1200.webp')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -322,5 +326,13 @@ margin-left: -815px;
     height: 100px;
     width: 250px;
     margin-left: -930px;
+    margin-bottom: 20px;
+}
+
+.hero-domnician-republic-image {
+    margin-top: 20px;
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
