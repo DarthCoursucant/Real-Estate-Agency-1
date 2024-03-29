@@ -129,10 +129,21 @@ margin-left: -230px;
 
 .category-button {
     height: 50px;
-    width: 248px;
+    width: 246px;
     background-color: #456470;
     margin-top: 30px;
     margin-bottom: 15px;
     margin-left: 15px;
     border: 2px solid #000000;
+}
+
+.hero-text-all {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.hero-text-all a {
+    text-decoration: none;
+    color: #ffffff;
 }
