@@ -274,6 +274,10 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://miro.medium.com/v2/resize:fit:960/1*iZj1B74Yf_XljvcvaFbKAA.jpeg')
 }
 
+.hero-comlobia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/981402600/photo/colombia-flag-waving-background.jpg?s=612x612&w=0&k=20&c=vXnWyaKGe34KVWiuaBsHJqqsNPpUDZ4F3TG2QtWwneo=')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -282,7 +286,7 @@ margin-left: -815px;
     margin-bottom: 20px;
 }
 
-.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-tanzania-image, .hero-morocco-image, .hero-kenya-image, .hero-ghana-image, .hero-canada-image, .hero-brazil-image, .hero-mexico-image {
+.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-tanzania-image, .hero-morocco-image, .hero-kenya-image, .hero-ghana-image, .hero-canada-image, .hero-brazil-image, .hero-mexico-image, .hero-comlobia-image {
     height: 100px;
     width: 250px;
     margin-left: 20px;
