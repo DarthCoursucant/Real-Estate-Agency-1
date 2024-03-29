@@ -42,6 +42,18 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/98/41/74/360_F_198417434_F3bEfozQ7dNiJyauakh3Su7YTBkkXDCc.jpg')
 }
 
+.hero-england-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/966189764/photo/flag-of-england-background.jpg?s=612x612&w=0&k=20&c=Pvkxejt_gxctu7YJtDpnCBVZEZdQZk8x7aMTs2S660U=')
+}
+
+.hero-germany-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg')
+}
+
+.hero-france-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/41/94/02/360_F_41940248_NCRNah6ISoHgXXmBEe4heQ0UPXXd1onE.jpg')
+}
+
 .hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
     margin-top: 75px;
     width: 270px;
@@ -53,7 +65,7 @@
 margin-left: -230px;
 }
 
-.hero-latvia-image {
+.hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero {
     margin-top: 20px;
     margin-left: 15px;
     width: 270px;
