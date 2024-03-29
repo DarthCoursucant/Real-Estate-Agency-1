@@ -33,12 +33,12 @@
     border-radius: 20px;
 }
 
-.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a, .sweden a, .norway a, .usa a, .canada a, .wales a, .scotland a, .austria a, .croatia a, .denmark a, .romania a, .finland a, .czechia a, .bulgaria a, .hungary a, .luxemborg a, .malta a, .slovenia a, .estonia a, .serbia a, .lithuania a, .slovakia a, .monacco a, .latvia a, .san a, .faroe a, .gibraltar a, .isle a, .egypt a, .south a, .moracco a, .indonasia a, .japan a, .thailand a, .uae a, .maledives a, .singapore a, .isreal a, .srilanka a, .austraila a, .new-zeland a, .fijii a, .solmon a {
+.popular a, .iconic a, .italy a, .switzerland a, .engalnd a, .germany a, .france a, .greece a, .poland a, .ireland a, .holand a, .beligum a, .sweden a, .norway a, .usa a, .canada a, .wales a, .scotland a, .austria a, .croatia a, .denmark a, .romania a, .finland a, .czechia a, .bulgaria a, .hungary a, .luxemborg a, .malta a, .slovenia a, .estonia a, .serbia a, .lithuania a, .slovakia a, .monacco a, .latvia a, .san a, .faroe a, .gibraltar a, .isle a, .egypt a, .south a, .moracco a, .indonasia a, .japan a, .thailand a, .uae a, .maledives a, .singapore a, .isreal a, .srilanka a, .austraila a, .new-zeland a, .fijii a, .solmon a, .brazil a, .mexico a, .columbia a, .argentina a, .chile a, .cuba a, .domcican a, .costa a, .bahamas a, .barbados a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum, .sweden, .norway, .usa, .canada, .wales, .scotland, .austria, .croatia, .denmark, .romania, .finland, .czechia, .bulgaria, .hungary, .luxemborg, .malta, .slovenia, .estonia, .serbia, .lithuania, .slovakia, .monacco, .latvia, .san, .faroe, .gibraltar, .isle, .egypt, .south, .moracco, .indonasia, .japan, .thailand, .uae, .maledives, .singapore, .isreal, .srilanka, .austraila, .new-zeland, .fijii, .solmon {
+.italy, .switzerland, .engalnd, .germany, .france, .greece, .poland, .ireland, .holand, .beligum, .sweden, .norway, .usa, .canada, .wales, .scotland, .austria, .croatia, .denmark, .romania, .finland, .czechia, .bulgaria, .hungary, .luxemborg, .malta, .slovenia, .estonia, .serbia, .lithuania, .slovakia, .monacco, .latvia, .san, .faroe, .gibraltar, .isle, .egypt, .south, .moracco, .indonasia, .japan, .thailand, .uae, .maledives, .singapore, .isreal, .srilanka, .austraila, .new-zeland, .fijii, .solmon, .brazil, .mexico, .columbia, .argentina, .chile, .cuba, .domcican, .costa, .bahamas, .barbados {
     background-color: #0C1435;
     margin-left: 10px;
     width: 200px;
