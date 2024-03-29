@@ -25,14 +25,22 @@
 }
 
 .hero-scotland-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('')
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/02/11/28/11/360_F_211281184_10tGf69KopKdwbdLGP9J6xnXBbgqpLHh.jpg')
 }
 
-.hero-italy-image, .hero-switzerland-image, .hero-scotland-image {
+.hero-poland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/01/71/63/73/360_F_171637300_HtmNiXKL7NzJG7doYdM89RcbpTd1bZgi.jpg')
+}
+
+.hero-denmark-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/936903200/photo/flag-of-denmark-waving-background.jpg?s=612x612&w=0&k=20&c=PUtPYCOBaEhIf-lbO9pw4_gIvMM_yi-fMCbWgOG-8Kw=')
+}
+
+.hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
     margin-top: 75px;
-    width: 250px;
+    width: 270px;
     height: 100px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .hero-italy-image {
