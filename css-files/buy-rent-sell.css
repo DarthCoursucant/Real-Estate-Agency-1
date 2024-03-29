@@ -54,6 +54,14 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/41/94/02/360_F_41940248_NCRNah6ISoHgXXmBEe4heQ0UPXXd1onE.jpg')
 }
 
+.hero-greece-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-photo/beautiful-greek-flag_23-2149323079.jpg')
+}
+
+.hero-irland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/00/62/18/65/360_F_62186589_CNB8OQxIGXs8160SakuWChkdONYG1Io3.jpg')
+}
+
 .hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
     margin-top: 75px;
     width: 270px;
@@ -65,9 +73,16 @@
 margin-left: -230px;
 }
 
-.hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero {
+.hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero, .hero-greece-hero {
     margin-top: 20px;
     margin-left: 15px;
     width: 270px;
     height: 100px;
+}
+
+.hero-irland-image {
+    width: 270px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 15px;
 }
