@@ -94,6 +94,10 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.flagsonline.it/uploads/2016-9-2/1200-0/sanmarino%20stato.jpg')
 }
 
+.hero-gibrator-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1092154092/vector/gibraltar-flag.jpg?s=612x612&w=0&k=20&c=cGQTP19LK4tmAl_dbFnfyIpA2_ATrrOLTcAlVHXWHVQ=')
+}
+
 .hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
     margin-top: 75px;
     height: 100px;
@@ -111,7 +115,7 @@ margin-left: -230px;
     height: 100px;
 }
 
-.hero-irland-image, .hero-belgium-hero, .hero-crotia-image, .hero-wales-image, .hero-austria-image, .hero-protugal-image, .hero-luxemborg-image, .hero-monacco-image, .hero-san-marino-image {
+.hero-irland-image, .hero-belgium-hero, .hero-crotia-image, .hero-wales-image, .hero-austria-image, .hero-protugal-image, .hero-luxemborg-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image {
     height: 100px;
     width: 270px;
     margin-top: 20px;
