@@ -14,7 +14,7 @@
 
 .wrap { flex-wrap: wrap; }
 
-.flex-europe-constiries-box {
+.flex-europe-constiries-box, .flex-asia-constiries-box {
     display: flex;
     border: 2px solid #000000;
     width: 1400px;
@@ -24,7 +24,7 @@
     border-radius: 20px;
 }
 
-.box-title {
+.box-title, .asia-box-title {
     text-align: center;
     padding-left: 590px;
 }
@@ -171,4 +171,15 @@ margin-left: -815px;
 
 .hero-protugal-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image {
     margin-bottom: 20px;
+}
+
+.hero-japan-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/62/19/54/360_F_62195416_wfzM4Baz70OjEU54EhsCpvuQWlIhukPg.jpg')
+}
+
+.hero-japan-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -780px;
 }
