@@ -380,3 +380,20 @@ margin-left: -815px;
     font-size: 20px;
     margin-bottom: 20px;
 }
+
+.go-to-contact-button {
+    width: 200px;
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 350px;
+}
+
+.go-to-contact-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
