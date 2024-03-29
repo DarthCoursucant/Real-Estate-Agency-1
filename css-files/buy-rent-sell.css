@@ -79,6 +79,17 @@
     margin-top: 15px;
 }
 
+.hero-text-all {
+    font-size: 25px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.hero-text-all a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .flex-hero-container-one, .flex-hero-container-two, .flex-hero-container-three {
     display: flex;
 }
