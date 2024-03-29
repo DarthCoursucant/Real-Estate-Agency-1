@@ -262,6 +262,18 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/a9/cf/4a/a9cf4ae1faee0af9b338cb93a43aa316.jpg')
 }
 
+.hero-canada-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/486037941/photo/canada-flag.jpg?s=612x612&w=0&k=20&c=7AP6KAquwCxleQink3KbbB7kvinMTlS3BO87_r2UDec=')
+}
+
+.hero-brazil-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/63/82/20/360_F_163822042_fh2VMaxEJKHpyVF3tjm4pOMdr5ZJiaUE.jpg')
+}
+
+.hero-mexico-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://miro.medium.com/v2/resize:fit:960/1*iZj1B74Yf_XljvcvaFbKAA.jpeg')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -270,7 +282,7 @@ margin-left: -815px;
     margin-bottom: 20px;
 }
 
-.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-tanzania-image, .hero-morocco-image, .hero-kenya-image, .hero-ghana-image {
+.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-tanzania-image, .hero-morocco-image, .hero-kenya-image, .hero-ghana-image, .hero-canada-image, .hero-brazil-image, .hero-mexico-image {
     height: 100px;
     width: 250px;
     margin-left: 20px;
