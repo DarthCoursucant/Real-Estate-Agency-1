@@ -14,7 +14,7 @@
 
 .wrap { flex-wrap: wrap; }
 
-.flex-europe-constiries-box, .flex-asia-constiries-box {
+.flex-europe-constiries-box, .flex-asia-constiries-box, .flex-oceania-constiries-box {
     display: flex;
     border: 2px solid #000000;
     width: 1400px;
@@ -24,7 +24,7 @@
     border-radius: 20px;
 }
 
-.box-title, .asia-box-title {
+.box-title, .asia-box-title, .oceania-box-title {
     text-align: center;
     padding-left: 590px;
 }
@@ -213,6 +213,10 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1349793384/photo/flag-of-cyprus.jpg?s=612x612&w=0&k=20&c=w0IfyvdQxhKTFuWzAPBK5JLdDX8qKspfwnmwldl74Sc=')
 }
 
+.hero-australia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.thenavigationcentre.com.au/cdn/shop/products/AustralianFlag_729x.jpg?v=1642753118')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -233,5 +237,13 @@ margin-left: -815px;
     width: 250px;
     margin-left: 18px;
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-australia-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -820px;
     margin-bottom: 20px;
 }
