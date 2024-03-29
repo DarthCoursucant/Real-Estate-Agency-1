@@ -21,6 +21,16 @@
     margin-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.box-title {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.flex-europe-constiries-box {
+    text-align: center;
 }
 
 .hero-italy-image {
@@ -104,14 +114,14 @@
 }
 
 .hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
-    margin-top: 75px;
+    margin-top: 100px;
     height: 100px;
     width: 250px;
     margin-left: 15px;
 }
 
 .hero-italy-image {
-margin-left: -230px;
+margin-left: -250px;
 }
 
 .hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero, .hero-greece-hero {
@@ -135,6 +145,17 @@ margin-left: -230px;
     margin-bottom: 15px;
     margin-left: 15px;
     border: 2px solid #000000;
+}
+
+.category-button {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.category-button a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .hero-text-all {
