@@ -282,6 +282,22 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.ebayimg.com/images/g/rVYAAOSwJVtjQH-V/s-l1200.webp')
 }
 
+.hero-cuba-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-vector/flag-cuba-country-nation-symbol-3d-textile-satin-effect-background-wallpaper-vector_667511-965.jpg')
+}
+
+.hero-jamaica-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/02/90/60/21/360_F_290602134_KtEGmGUccG2TKp6LyVRN2BYHhBIq7uFI.jpg')
+}
+
+.hero-bahamas-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/523487212/photo/bahamas-flag.jpg?s=612x612&w=0&k=20&c=GEDAIjKdWLIqm1I8rXupVB7Dr-39t_pDA38LOzlGdk8=')
+}
+
+.hero-barbados-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/a5/ed/bb/a5edbb74b3e0b42b5af1b08412c90171.jpg')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -329,7 +345,7 @@ margin-left: -815px;
     margin-bottom: 20px;
 }
 
-.hero-domnician-republic-image {
+.hero-domnician-republic-image, .hero-cuba-image, .hero-jamaica-image, .hero-bahamas-image, .hero-barbados-image {
     margin-top: 20px;
     height: 100px;
     width: 250px;
