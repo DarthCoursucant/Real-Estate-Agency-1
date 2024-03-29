@@ -1,5 +1,5 @@
 .buy-content-info-box {
-    background-color: #456470;
+    background-color: #0C1435;
     border: 2px solid #000000;
     font-size: 20px;
     width: 650px;
@@ -351,4 +351,17 @@ margin-left: -815px;
     width: 250px;
     margin-left: 20px;
     margin-bottom: 20px;
+}
+
+.end-of-box {
+    background-color: #0C1435;
+    border: 2px solid #000000;
+    color: white;
+    width: 800px;
+    margin-left: 350px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 20px;
 }
