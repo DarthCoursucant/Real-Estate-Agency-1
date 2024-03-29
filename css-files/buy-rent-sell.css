@@ -168,3 +168,7 @@ margin-left: -815px;
     text-decoration: none;
     color: #ffffff;
 }
+
+.hero-protugal-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image {
+    margin-bottom: 20px;
+}
