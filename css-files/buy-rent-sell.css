@@ -36,7 +36,11 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1532456749/photo/us-flag-texture-4th-of-july-and-other-usa-holidays-background.webp?b=1&s=170667a&w=0&k=20&c=3Z_EZLdi_mR0XYB_LNe_dAjmrNUftuDX0OGq_EfRLgM=')
 }
 
-.hero-italy-image, .hero-canada-image, .hero-maldives-image, .hero-singapore-image, .hero-isreal-image, .hero-usa-image {
+.hero-switzerland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1409845543/vector/switzerland-flag-design-waving-swiss-flag-made-of-satin-or-silk-fabric-vector-illustration.jpg?s=612x612&w=0&k=20&c=ienwQznGZSMbv3s-pIDW5Q8d-2bn3a15kQUXJeDGGJ8=')
+}
+
+.hero-italy-image, .hero-canada-image, .hero-maldives-image, .hero-singapore-image, .hero-isreal-image, .hero-usa-image, .hero-switzerland-image {
     width: 265px;
     height: 150px;
     margin-left: 20px;
