@@ -40,7 +40,19 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1409845543/vector/switzerland-flag-design-waving-swiss-flag-made-of-satin-or-silk-fabric-vector-illustration.jpg?s=612x612&w=0&k=20&c=ienwQznGZSMbv3s-pIDW5Q8d-2bn3a15kQUXJeDGGJ8=')
 }
 
-.hero-italy-image, .hero-canada-image, .hero-maldives-image, .hero-singapore-image, .hero-isreal-image, .hero-usa-image, .hero-switzerland-image {
+.hero-scotland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/02/11/28/11/360_F_211281184_10tGf69KopKdwbdLGP9J6xnXBbgqpLHh.jpg')
+}
+
+.hero-sri-lanka-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/989948936/photo/flag-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=8DcmNrmGh-ER6mxfs9-S17GEsQ31f4rNJVtpJsKQZJM=')
+}
+
+.hero-denamrk-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/936903200/photo/flag-of-denmark-waving-background.jpg?s=612x612&w=0&k=20&c=PUtPYCOBaEhIf-lbO9pw4_gIvMM_yi-fMCbWgOG-8Kw=')
+}
+
+.hero-italy-image, .hero-canada-image, .hero-maldives-image, .hero-singapore-image, .hero-isreal-image, .hero-usa-image, .hero-switzerland-image, .hero-scotland-image, .hero-sri-lanka-image, .hero-denamrk-image {
     width: 265px;
     height: 150px;
     margin-left: 20px;
