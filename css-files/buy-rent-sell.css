@@ -12,28 +12,12 @@
     border-radius: 20px;
 }
 
+.europe-constiries-box {
+    display: flex;
+}
+
 .hero-italy-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.worldatlas.com/r/w1200/upload/20/07/2a/shutterstock-152854481.jpg')
-}
-
-.hero-canada-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/00/62/19/83/360_F_62198390_dhWMq4bSdG0C0zaaXL22sMgKyJ0fals3.jpg')
-}
-
-.hero-maldives-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/181101870/photo/flag-of-maldives-the.jpg?s=612x612&w=0&k=20&c=dEU94JpKoHX6DGvphVftvErIybVFqxB74fRmpbsJpRE=')
-}
-
-.hero-singapore-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.motosha.com/files/preview/1280x711/2162-singapore-flag.jpg')
-}
-
-.hero-isreal-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-photo/national-flag-israel-israel-flag-fabric-flag-israel-3d-work-3d-image_220166-48.jpg')
-}
-
-.hero-usa-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1532456749/photo/us-flag-texture-4th-of-july-and-other-usa-holidays-background.webp?b=1&s=170667a&w=0&k=20&c=3Z_EZLdi_mR0XYB_LNe_dAjmrNUftuDX0OGq_EfRLgM=')
 }
 
 .hero-switzerland-image {
@@ -41,55 +25,16 @@
 }
 
 .hero-scotland-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/02/11/28/11/360_F_211281184_10tGf69KopKdwbdLGP9J6xnXBbgqpLHh.jpg')
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('')
 }
 
-.hero-sri-lanka-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/989948936/photo/flag-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=8DcmNrmGh-ER6mxfs9-S17GEsQ31f4rNJVtpJsKQZJM=')
+.hero-italy-image, .hero-switzerland-image, .hero-scotland-image {
+    margin-top: 75px;
+    width: 250px;
+    height: 100px;
+    margin-left: 10px;
 }
 
-.hero-denamrk-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/936903200/photo/flag-of-denmark-waving-background.jpg?s=612x612&w=0&k=20&c=PUtPYCOBaEhIf-lbO9pw4_gIvMM_yi-fMCbWgOG-8Kw=')
-}
-
-.hero-latvia-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/98/41/74/360_F_198417434_F3bEfozQ7dNiJyauakh3Su7YTBkkXDCc.jpg')
-}
-
-.hero-uae-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://st2.depositphotos.com/3659429/5297/i/450/depositphotos_52974723-stock-photo-flag-of-the-united-arab.jpg')
-}
-
-.hero-england-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/966189764/photo/flag-of-england-background.jpg?s=612x612&w=0&k=20&c=Pvkxejt_gxctu7YJtDpnCBVZEZdQZk8x7aMTs2S660U=')
-}
-
-.hero-germany-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg')
-}
-
-.hero-france-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/05/97/85/01/360_F_597850197_FTLnwDyfHfqwR51aB1cnqqtcH5nMpQcD.jpg')
-}
-
-.hero-italy-image, .hero-canada-image, .hero-maldives-image, .hero-singapore-image, .hero-isreal-image, .hero-usa-image, .hero-switzerland-image, .hero-scotland-image, .hero-sri-lanka-image, .hero-denamrk-image, .hero-latvia-image, .hero-uae-image, .hero-england-image, .hero-germany-image, .hero-france-image {
-    width: 265px;
-    height: 150px;
-    margin-left: 20px;
-    margin-top: 15px;
-}
-
-.hero-text-all {
-    font-size: 25px;
-    padding-top: 50px;
-    text-align: center;
-}
-
-.hero-text-all a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.flex-hero-container-one, .flex-hero-container-two, .flex-hero-container-three {
-    display: flex;
+.hero-italy-image {
+margin-left: -230px;
 }
