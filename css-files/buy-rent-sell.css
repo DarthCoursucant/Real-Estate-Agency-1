@@ -217,6 +217,10 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.thenavigationcentre.com.au/cdn/shop/products/AustralianFlag_729x.jpg?v=1642753118')
 }
 
+.hero-new-zeland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://image.cnbcfm.com/api/v1/image/102907446-2170-kyle-lockwood-silver-fern-nz-flag-final-cr-3.png?v=1439208962&w=720&h=405')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -225,7 +229,7 @@ margin-left: -815px;
     margin-bottom: 20px;
 }
 
-.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image {
+.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image {
     height: 100px;
     width: 250px;
     margin-left: 20px;
