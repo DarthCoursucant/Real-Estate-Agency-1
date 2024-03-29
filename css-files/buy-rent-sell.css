@@ -233,6 +233,10 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/04/52/70/12/360_F_452701234_w2Md0mA4ptiMsatJPTjdgrJeddyH0ICx.jpg')
 }
 
+.hero-edgypt-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/42/90/78/360_F_42907895_qbW5Aa3T6oEbyBcu8QJ94241lSGd0Fbg.jpg')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -261,5 +265,13 @@ margin-left: -815px;
     height: 100px;
     width: 250px;
     margin-left: -820px;
+    margin-bottom: 20px;
+}
+
+.hero-edgypt-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -800px;
     margin-bottom: 20px;
 }
