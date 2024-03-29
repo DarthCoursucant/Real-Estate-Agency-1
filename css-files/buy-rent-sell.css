@@ -258,6 +258,10 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Ghana-Flag.jpg/1280px-Ghana-Flag.jpg')
 }
 
+.hero-usa-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/a9/cf/4a/a9cf4ae1faee0af9b338cb93a43aa316.jpg')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -294,5 +298,13 @@ margin-left: -815px;
     height: 100px;
     width: 250px;
     margin-left: -800px;
+    margin-bottom: 20px;
+}
+
+.hero-usa-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -930px;
     margin-bottom: 20px;
 }
