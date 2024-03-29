@@ -78,6 +78,14 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScJF42dSf17lzHdc4uAo7nwriPlwVuV1Sw44lQqgPIMA&s')
 }
 
+.hero-spain-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/22/2e/c5/222ec5ee491aa843c61b5d7d3a525215.jpg')
+}
+
+.hero-protugal-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/02/86/16/90/360_F_286169037_5oR259bfHLYU8Els6oSbOajOerzRR6EM.jpg')
+}
+
 .hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
     margin-top: 75px;
     height: 100px;
@@ -95,7 +103,7 @@ margin-left: -230px;
     height: 100px;
 }
 
-.hero-irland-image, .hero-belgium-hero, .hero-crotia-image, .hero-wales-image, .hero-austria-image {
+.hero-irland-image, .hero-belgium-hero, .hero-crotia-image, .hero-wales-image, .hero-austria-image, .hero-spain-image, .hero-protugal-image {
     height: 100px;
     width: 270px;
     margin-top: 20px;
