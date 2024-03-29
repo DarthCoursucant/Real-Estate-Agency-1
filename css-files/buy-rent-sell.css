@@ -237,6 +237,10 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/42/90/78/360_F_42907895_qbW5Aa3T6oEbyBcu8QJ94241lSGd0Fbg.jpg')
 }
 
+.hero-tanzania-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/00/50/52/53/360_F_50525335_TQOi6mxs0AgjkVXEIAAx1Z4y7bi27L5Q.jpg')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -245,7 +249,7 @@ margin-left: -815px;
     margin-bottom: 20px;
 }
 
-.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image {
+.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-tanzania-image {
     height: 100px;
     width: 250px;
     margin-left: 20px;
