@@ -80,8 +80,8 @@
 
 .hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
     margin-top: 75px;
-    width: 270px;
     height: 100px;
+    width: 270px;
     margin-left: 15px;
 }
 
@@ -90,15 +90,24 @@ margin-left: -230px;
 }
 
 .hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero, .hero-greece-hero {
-    margin-top: 20px;
     margin-left: 15px;
     width: 270px;
     height: 100px;
 }
 
 .hero-irland-image, .hero-belgium-hero, .hero-crotia-image, .hero-wales-image, .hero-austria-image {
-    width: 270px;
     height: 100px;
+    width: 270px;
     margin-top: 20px;
     margin-left: 15px;
+}
+
+.category-button {
+    height: 50px;
+    width: 268px;
+    background-color: #456470;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 2px solid #000000;
 }
