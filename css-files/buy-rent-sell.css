@@ -193,6 +193,22 @@ margin-left: -815px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/41/02/7c/41027c44427e666b9a71c57a9bf95c1e.jpg')
 }
 
+.hero-singapore-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-vector/flag-singapore-background-template_19426-577.jpg')
+}
+
+.hero-maledives-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/maldives-flag-nomonkey-b.jpg')
+}
+
+.hero-armenia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.advantour.com/img/armenia/images/flag.jpg')
+}
+
+.hero-qatar-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/03/39/91/77/360_F_339917756_IrUxY7fl0taqoWyilK2R2lSwUG3x30ZC.jpg')
+}
+
 .hero-japan-image {
     margin-top: 100px;
     height: 100px;
@@ -206,4 +222,12 @@ margin-left: -815px;
     width: 250px;
     margin-left: 20px;
     margin-top: 100px;
+}
+
+.hero-singapore-image, .hero-maledives-image, .hero-armenia-image, .hero-qatar-image {
+    height: 100px;
+    width: 250px;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
