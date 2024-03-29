@@ -38,6 +38,10 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/936903200/photo/flag-of-denmark-waving-background.jpg?s=612x612&w=0&k=20&c=PUtPYCOBaEhIf-lbO9pw4_gIvMM_yi-fMCbWgOG-8Kw=')
 }
 
+.hero-latvia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/98/41/74/360_F_198417434_F3bEfozQ7dNiJyauakh3Su7YTBkkXDCc.jpg')
+}
+
 .hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
     margin-top: 75px;
     width: 270px;
@@ -47,4 +51,11 @@
 
 .hero-italy-image {
 margin-left: -230px;
+}
+
+.hero-latvia-image {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 270px;
+    height: 100px;
 }
