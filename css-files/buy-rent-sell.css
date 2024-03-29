@@ -11,3 +11,25 @@
     color: #ffffff;
     border-radius: 20px;
 }
+
+.hero-italy-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.worldatlas.com/r/w1200/upload/20/07/2a/shutterstock-152854481.jpg')
+}
+
+.hero-canada-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/00/62/19/83/360_F_62198390_dhWMq4bSdG0C0zaaXL22sMgKyJ0fals3.jpg')
+}
+
+.hero-maldives-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/181101870/photo/flag-of-maldives-the.jpg?s=612x612&w=0&k=20&c=dEU94JpKoHX6DGvphVftvErIybVFqxB74fRmpbsJpRE=')
+}
+
+.hero-italy-image, .hero-canada-image, .hero-maldives-image {
+    width: 250px;
+    height: 150px;
+    margin-left: 10px;
+}
+
+.flex-hero-container-one {
+    display: flex;
+}
