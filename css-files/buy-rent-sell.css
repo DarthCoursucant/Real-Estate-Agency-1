@@ -12,7 +12,9 @@
     border-radius: 20px;
 }
 
-.europe-constiries-box {
+.wrap { flex-wrap: wrap; }
+
+.flex-europe-constiries-box {
     display: flex;
 }
 
