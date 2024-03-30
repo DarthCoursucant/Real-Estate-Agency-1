@@ -397,3 +397,10 @@ margin-left: -815px;
     text-decoration: none;
     color: #ffffff;
 }
+
+.hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image, .hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero, .hero-greece-hero, .hero-belgium-hero, .hero-crotia-image, .hero-irland-image, .hero-wales-image, .hero-austria-image, .hero-luxemborg-image, .hero-protugal-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
