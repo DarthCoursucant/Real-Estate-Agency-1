@@ -1,8 +1,10 @@
-.estate-naples {
+.wrap { flex-wrap: wrap; }
+
+.estate-italy {
     display: flex;
 }
 
-.properties-container {
+.properties-container, .properties-container-one {
     height: 300x;
   width: 500px;
   margin: 50px auto;
@@ -30,12 +32,12 @@
   width: 240px;
   border-radius: 0 7px 10px 7px;
   background-color: #203036;
-  
 }
 
 .estate-info-text {
     height: 220px;
     width: 250px;
+    margin-left: -5px;
 }
 
 .estate-info-text h1 {
@@ -47,7 +49,7 @@
 }
 
 .estate-info-text p {
-    height: 100px;
+    height: 110px;
     text-align: center;
   color: #ffffff;
   font-size: 15px;
@@ -72,7 +74,7 @@
 
 #estate-button a {
     float: right;
-    background-color: brown;
+    background-color: #0C1435;
     text-decoration: none;
     color: #ffffff;
     margin-right: 40px;
@@ -81,4 +83,20 @@
     text-align: center;
     border-radius: 20px;
     font-size: 20px;
+    border: 1px solid #ffffff;
+}
+
+.estate-italy h2 {
+  text-align: center;
+  margin-left: 550px;
+}
+
+.properties-container {
+  margin-top: 130px;
+  margin-left: -830px;
+}
+
+.properties-container-one {
+  margin-top: 130px;
+  margin-left: 200px;
 }
