@@ -6,8 +6,7 @@
 
 .properties-container, .properties-container-one {
     height: 300x;
-  width: 500px;
-  margin: 50px auto;
+    width: 500px;
   border-radius: 7px 7px 7px 7px;
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
@@ -29,7 +28,7 @@
 .estate-info {
     float: left;
   height: 220px;
-  width: 240px;
+  width: 250px;
   border-radius: 0 7px 10px 7px;
   background-color: #203036;
 }
@@ -54,7 +53,7 @@
   color: #ffffff;
   font-size: 15px;
   font-weight: lighter;
-  overflow: hidden;
+  padding-left: 5px;
 }
 
 .properties-container {
@@ -98,5 +97,5 @@
 
 .properties-container-one {
   margin-top: 130px;
-  margin-left: 200px;
+  margin-left: 20px;
 }
