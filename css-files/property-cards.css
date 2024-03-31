@@ -4,13 +4,18 @@
     display: flex;
 }
 
-.properties-container, .properties-container-one {
+.properties-container, .properties-container-one, .properties-container-three {
     height: 300x;
     width: 500px;
   border-radius: 7px 7px 7px 7px;
   -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.properties-container-three {
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
 .estate-photo {
@@ -67,11 +72,18 @@
     color: #ffffff;
 }
 
-.estate-price p {
+.estate-price-one {
+  float: right;
+    margin-top: -115px;
+    margin-right: 70px;
+    color: #ffffff;
+}
+
+.estate-price p, .estate-price-one p {
   font-size: 25px;
 }
 
-#estate-button a {
+#estate-button a, #estate-button-one a {
     float: right;
     background-color: #0C1435;
     text-decoration: none;
