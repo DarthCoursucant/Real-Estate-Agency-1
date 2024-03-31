@@ -3,8 +3,8 @@
 }
 
 .properties-container {
-    height: 420px;
-  width: 654px;
+    height: 300x;
+  width: 600px;
   margin: 50px auto;
   border-radius: 7px 7px 7px 7px;
   /* VIA CSS MATIC https://goo.gl/cIbnS */
@@ -15,27 +15,27 @@
 
 .estate-photo {
     float: left;
-  height: 420px;
-  width: 327px;
+  height: 300px;
+  width: 300px;
 }
 
 .estate-photo img {
-    height: 420px;
-    width: 327px;
+    height: 300px;
+    width: 300px;
     border-radius: 7px 0 0 7px;
 }
 
 .estate-info {
     float: left;
-  height: 420px;
-  width: 327px;
+  height: 300px;
+  width: 300px;
   border-radius: 0 7px 10px 7px;
   background-color: #ffffff;
 }
 
 .estate-info-text {
     height: 300px;
-  width: 327px;
+  width: 300px;
 }
 
 .estate-info-text h1 {
@@ -59,7 +59,7 @@
     height: 103px;
   width: 327px;
   margin-top: 17px;
-  position: relative;
+  position: absolute;
 }
 
 .estate-price-and-button p {
@@ -73,21 +73,12 @@
     color: #474747;
 }
 
-span {
-    display: inline-block;
-    height: 50px;
-    font-family: 'Suranna', serif;
-    font-size: 34px;
-  }
-
 .estate-button {
-    float: right;
     display: inline-block;
     height: 50px;
     width: 176px;
     margin: 0 40px 0 16px;
     box-sizing: border-box;
-    border: transparent;
     border-radius: 60px;
     font-size: 14px;
     font-weight: 500;
