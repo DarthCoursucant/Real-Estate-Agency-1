@@ -40,18 +40,21 @@
     <!--Content-->
     <main class="page-body">
       <div class="container">
-        <h1>Login</h1>
-        <form action="/login" method="post">
+        <h1>Register Account</h1>
+        <form action="/register" method="post">
           <label for="username">Username:</label>
           <input type="text" id="username" name="username" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
 
           <label for="password">Password:</label>
           <input type="password" id="password" name="password" required />
 
-          <input type="submit" value="Login" name="login" />
+          <input type="submit" value="Register" name="register" />
         </form>
 
-        <p>Don't have an account? <a href="register.html">Create one</a>.</p>
+        <p>Already have an account? <a href="login.html">Login</a>.</p>
       </div>
     </main>
 
