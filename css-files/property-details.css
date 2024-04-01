@@ -8,6 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    color: #203036;
 
     .property-looks img {
         max-width: 875px;
@@ -15,11 +16,9 @@
         object-fit: cover;
         border-radius: 5px;
     }
-
     .property-info {
 
         margin-top: 0px;
-        color: #203036;
 
         h1 {
             font-size: 40px;
@@ -48,4 +47,73 @@
             height: 275px;
         }
     }
+    .property-description {
+        max-width: 1400px;
+        margin-right: 10%;
+        p {
+           font-size: 25px; 
+           strong{
+            opacity: 75%;
+            font-size: 20px;
+           }
+        }
+        h2 {
+            font-size: 32px;
+        }
+    }
+
+    .contact {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 0px;
+
+        .seller {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+    
+            h2 {
+                font-size: 33px;
+            }
+    
+            i {
+                font-size: 25px;
+                padding: 15px;
+                border: 2px solid #203036;
+                border-radius: 99999px;
+            }
+        }
+
+        .submit {
+            width: 100%;
+            height: 100%;
+            color: #203036;
+            margin-right: 2%;
+            margin-left: 0px;
+            line-height: 0px;
+            p {
+                font-size: 25px;
+            }
+            h2 {
+                font-size: 30px;
+            }
+            .submit-button {
+                padding-top: 50px;
+                 a{
+                    color: white;
+                    background-color: #203036;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-radius: 99999px;
+                }
+            }
+        }
+    }
+    
 }
