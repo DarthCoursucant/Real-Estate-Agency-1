@@ -1,0 +1,22 @@
+
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    color: #203036;
+    h2 {
+        font-size: 35px;
+        margin: 0px;
+    }
+}
+
+.property-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.property-info {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
