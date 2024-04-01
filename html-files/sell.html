@@ -39,100 +39,128 @@
     <main class="page-body">
 
         <div class="content">
-            <h2>What do You intend?</h2>
-            <div class="intention-answer">
-                <label class="filtercontainer">
-                    <input type="checkbox">
-                    <span class="checkmark"></span> Sell
-                </label>
-            </div>
-            <div class="intention-answer">
-                <label class="filtercontainer">
-                    <input type="checkbox" class="property-info">
-                    <span class="checkmark"></span> Rent
-                </label>
-            </div>
+            <div class="content-filloutform">
 
-            <h2>What Type of Property?</h2>
-            <div class="type-answer">
-                <label class="filtercontainer">
-                    <input type="checkbox">
-                    <span class="checkmark"></span> House
-                </label>
-            </div>
-            <div class="type-answer">
-                <label class="filtercontainer">
-                    <input type="checkbox" class="property-info">
-                    <span class="checkmark"></span> Apartment
-                </label>
-            </div>
-
-            <div class="property-user-inputs">
-                <div class="property-user-inputs-content">
-                    <h2>Property Name</h2>
-                    <label for="Property Name">
-                        <input type="text" name="" id="" class="property-info">
-                    </label>
-    
-                    <h2>Property Location</h2>
-                    <label for="Property Name">
-                        <input type="text" name="" id="" class="property-info">
-                    </label>
-    
-                    <h2>Description</h2>
-                    <label for="Property Name">
-                        <input type="text" name="" id="" placeholder="Use as many words as you wish, but describing your property in details can help you attract potential buyers/renters..." class="property-info-description">
-                    </label>
-    
-                    <h2>Property Details</h2>
-                    <p>Number off:</p>
-                    <div class="property-details">
-                        <label for="Property Details">Bedrooms
-                            <input type="number" name="" id="">
-                        </label>
-                        <label for="Property Details">Kitchens
-                            <input type="number" name="" id="">
-                        </label>
-                        <label for="Property Details">Living Rooms
-                            <input type="number" name="" id="">
-                        </label>
-                        <label for="Property Details">Floors/Stories
-                            <input type="number" name="" id="">
-                        </label>
-                        <label class="filtercontainer">
-                            <input type="checkbox" class="property-info">
-                            <span class="checkmark"></span> Garden
-                        </label>
-                    </div>
-    
-                    <h2>Submit Pictures</h2>
-                    <form action="">
-                        <label for="myfile"></label>
-                        <input type="file" id="myfile" name="myfile" class="property-info">
-                    </form>
-    
-                    <h2>Price</h2>
-                    <label for="Property Price">
-                        <input type="number" name="" id="" class="property-info">
-                    </label>
-    
-                    <label class="filtercontainer"><p>Would you like to be contacted by one of our Agents and get help along the buying/renting process?</p>
-                        <div class="question-yes">
-                            <div class="answer-yes">
+                <div class="filloutform-1">
+                    <div class="intention">
+                        <h2>What do You intend?</h2>
+                        <div class="intention-answer">
+                            <label class="filtercontainer">
                                 <input type="checkbox">
-                                <span class="checkmark"></span>Yes
+                                <span class="checkmark"></span> Selling
+                            </label>
+                        </div>
+                        <div class="intention-answer">
+                            <label class="filtercontainer">
+                                <input type="checkbox">
+                                <span class="checkmark"></span> Renting
+                            </label>
+                        </div>
+                    </div>
+                    <div class="type">
+                        <h2>What Type of Property?</h2>
+                        <div class="type-answer">
+                            <label class="filtercontainer">
+                                <input type="checkbox">
+                                <span class="checkmark"></span> House
+                            </label>
+                        </div>
+                        <div class="type-answer">
+                            <label class="filtercontainer">
+                                <input type="checkbox">
+                                <span class="checkmark"></span> Apartment
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="property-user-inputs">
+                    <div class="property-user-inputs-content">
+
+                        <div class="filloutform-2">
+                            
+                            <div class="prop-name-and-location">
+                                <div class="prop-name">
+                                    <h2>Property Name</h2>
+                                    <label for="Property Name">
+                                        <input type="text" name="" id="" class="property-info">
+                                    </label>
+                                </div>
+                                <div class="prop-location">
+                                    <h2>Property Location</h2>
+                                    <label for="Property Name">
+                                        <input type="text" name="" id="" class="property-info">
+                                    </label>
+                                </div>
                             </div>
-                            <div class="answer-no">
-                                <input type="checkbox" class="property-info">
-                                <span class="checkmark"></span>No
+            
+                            <div class="prop-desc">
+                                <h2>Description</h2>
+                                <label for="Property Name">
+                                    <input type="text" name="" id="" placeholder="Use as many words as you wish, but describing your property in details can help you attract potential buyers/renters..." class="property-info-description">
+                                </label>
+                            </div>
+
+                        </div>
+        
+                        <div class="filloutform-3">
+                            <h2>Property Details</h2>
+                            <p>Number off:</p>
+                            <div class="property-details">
+                                <label for="Property Details">Bedrooms
+                                    <input type="number" name="" id="">
+                                </label>
+                                <label for="Property Details">Kitchens
+                                    <input type="number" name="" id="">
+                                </label>
+                                <label for="Property Details">Living Rooms
+                                    <input type="number" name="" id="">
+                                </label>
+                                <label for="Property Details">Floors/Stories
+                                    <input type="number" name="" id="">
+                                </label>
+                                <label class="filtercontainer">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span> Garden
+                                </label>
                             </div>
                         </div>
-                    </label>
-    
-                    <div class="submit-button">
-                        <a href="">Submit</a>
+        
+                        <div class="filloutform-4">
+                            <h2>Submit Pictures</h2>
+                            <form action="">
+                                <label for="myfile"></label>
+                                <input type="file" id="myfile" name="myfile">
+                            </form>
+                        </div>
+        
+                        <div class="filloutform-5">
+                            <h2>Price</h2>
+                            <label for="Property Price">
+                                <input type="number" name="" id="">
+                            </label>
+                        </div>
+        
+                        <div class="filloutform-6">
+                            <label class="filtercontainer"><p>Would you like to be contacted by one of our Agents and get help along the buying/renting process?</p>
+                                <div class="question-yes">
+                                    <div class="answer-yes">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>Yes
+                                    </div>
+                                    <div class="answer-no">
+                                        <input type="checkbox">
+                                        <span class="checkmark"></span>No
+                                    </div>
+                                </div>
+                            </label>
+                        </div>
+        
+                        <div class="submit-button">
+                            <a href="">Submit</a>
+                        </div>
+        
                     </div>
-    
                 </div>
             </div>
 

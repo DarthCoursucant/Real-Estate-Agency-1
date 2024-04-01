@@ -3,12 +3,57 @@
 .content {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
-    color: #203036;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+    color: white;
+    background-color: #556165;
+    border-radius: 5px;
     h2 {
         font-size: 35px;
         margin-bottom: 15px;
     }
+}
+
+.content-filloutform {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 75px;
+}
+
+.filloutform-1 {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .intention{
+        margin-right: 10%;
+    }
+}
+
+.filloutform-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    .prop-name-and-location{
+        margin-right: 10%;
+    }
+}
+
+.filloutform-3 {
+    margin-bottom: 50px;
+}
+
+.filloutform-4 {
+    margin-bottom: 50px;
+}
+
+.filloutform-5 {
+    margin-bottom: 50px;
+}
+
+.filloutform-6 {
+    margin-bottom: 50px;
 }
 
 .property-details {
@@ -21,6 +66,19 @@
     margin-bottom: 50px;
     padding-bottom: 5px;
     width: 300px;
+}
+
+.property-info-garden {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.property-info-rent {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.property-info-ap {
+    margin-top: 0px;
+    margin-bottom: 50px;
 }
 
 
