@@ -7,7 +7,7 @@
     color: #203036;
     h2 {
         font-size: 35px;
-        margin: 0px;
+        margin-bottom: 15px;
     }
 }
 
@@ -19,4 +19,14 @@
 .property-info {
     margin-top: 0px;
     margin-bottom: 50px;
+    padding-bottom: 5px;
+    width: 300px;
+}
+
+
+.property-info-description {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    width: 700px;
+    padding-bottom: 200px;
 }
