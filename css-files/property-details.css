@@ -1,0 +1,41 @@
+
+
+.content {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+    .property-looks img {
+        width: 875px;
+        height: 675px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .property-info {
+
+        margin-top: 0px;
+        color: #203036;
+
+        h1 {
+            font-size: 40px;
+            font-weight: bolder;
+            margin: 0px;
+        }
+        p {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 25px;
+            line-height: 10px;
+        }
+        .property-rooms {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
