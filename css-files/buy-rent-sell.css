@@ -1,0 +1,406 @@
+.buy-content-info-box {
+    background-color: #0C1435;
+    border: 2px solid #000000;
+    font-size: 20px;
+    width: 650px;
+    margin-left: 400px;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.wrap { flex-wrap: wrap; }
+
+.flex-europe-constiries-box, .flex-asia-constiries-box, .flex-oceania-constiries-box, .flex-africa-constiries-box, .flex-north-south-america-constiries-box {
+    display: flex;
+    border: 2px solid #000000;
+    width: 1400px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.box-title, .asia-box-title, .oceania-box-title, .africa-box-title {
+    text-align: center;
+    padding-left: 590px;
+}
+
+.amercias-box-title {
+    text-align: center;
+    padding-left: 450px;
+}
+
+.flex-europe-constiries-box {
+    text-align: center;
+}
+
+.hero-italy-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.worldatlas.com/r/w1200/upload/20/07/2a/shutterstock-152854481.jpg')
+}
+
+.hero-switzerland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1409845543/vector/switzerland-flag-design-waving-swiss-flag-made-of-satin-or-silk-fabric-vector-illustration.jpg?s=612x612&w=0&k=20&c=ienwQznGZSMbv3s-pIDW5Q8d-2bn3a15kQUXJeDGGJ8=')
+}
+
+.hero-scotland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/02/11/28/11/360_F_211281184_10tGf69KopKdwbdLGP9J6xnXBbgqpLHh.jpg')
+}
+
+.hero-poland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/01/71/63/73/360_F_171637300_HtmNiXKL7NzJG7doYdM89RcbpTd1bZgi.jpg')
+}
+
+.hero-denmark-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/936903200/photo/flag-of-denmark-waving-background.jpg?s=612x612&w=0&k=20&c=PUtPYCOBaEhIf-lbO9pw4_gIvMM_yi-fMCbWgOG-8Kw=')
+}
+
+.hero-latvia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/98/41/74/360_F_198417434_F3bEfozQ7dNiJyauakh3Su7YTBkkXDCc.jpg')
+}
+
+.hero-england-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/966189764/photo/flag-of-england-background.jpg?s=612x612&w=0&k=20&c=Pvkxejt_gxctu7YJtDpnCBVZEZdQZk8x7aMTs2S660U=')
+}
+
+.hero-germany-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/11/68/26/360_F_111682656_g63NR8Z16g8H8boPR3LK6J4VEbSv9oXg.jpg')
+}
+
+.hero-france-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/41/94/02/360_F_41940248_NCRNah6ISoHgXXmBEe4heQ0UPXXd1onE.jpg')
+}
+
+.hero-greece-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-photo/beautiful-greek-flag_23-2149323079.jpg')
+}
+
+.hero-irland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/00/62/18/65/360_F_62186589_CNB8OQxIGXs8160SakuWChkdONYG1Io3.jpg')
+}
+
+.hero-belgium-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1130893665/video/belgium-flag.jpg?s=640x640&k=20&c=xiexYimIsapurPbv35jvKxmupm9wwjF8cj-ZneIpqZ4=')
+}
+
+.hero-crotia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/04/35/32/73/360_F_435327314_47CiknGivBXBbrMPEWZL9wTlMuXSszfn.jpg')
+}
+
+.hero-wales-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYTpufb4aZQ3yiDW_uzvl_BpUzc_hjlG6wAHAtpgDdQg&s')
+}
+
+.hero-austria-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScJF42dSf17lzHdc4uAo7nwriPlwVuV1Sw44lQqgPIMA&s')
+}
+
+.hero-luxemborg-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/62/19/46/360_F_62194628_K2J1buCuT3Kk77ah0rrzc8AMG8l4cN5m.jpg')
+}
+
+.hero-protugal-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/02/86/16/90/360_F_286169037_5oR259bfHLYU8Els6oSbOajOerzRR6EM.jpg')
+}
+
+.hero-monacco-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT03KS6-KT3udX6WVkdDzfR1y7ktGcREiKUSbC7vcwVwg&s')
+}
+
+.hero-san-marino-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.flagsonline.it/uploads/2016-9-2/1200-0/sanmarino%20stato.jpg')
+}
+
+.hero-gibrator-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1092154092/vector/gibraltar-flag.jpg?s=612x612&w=0&k=20&c=cGQTP19LK4tmAl_dbFnfyIpA2_ATrrOLTcAlVHXWHVQ=')
+}
+
+.hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: 15px;
+}
+
+.hero-italy-image {
+margin-left: -815px;
+}
+
+.hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero, .hero-greece-hero {
+    margin-left: 15px;
+    width: 250px;
+    height: 100px;
+}
+
+.hero-irland-image, .hero-belgium-hero, .hero-crotia-image, .hero-wales-image, .hero-austria-image, .hero-protugal-image, .hero-luxemborg-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image {
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.category-button {
+    height: 50px;
+    width: 246px;
+    background-color: #203036;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 2px solid #000000;
+}
+
+.category-button {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.category-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero-text-all {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.hero-text-all a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero-protugal-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image {
+    margin-bottom: 20px;
+}
+
+.hero-japan-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/62/19/54/360_F_62195416_wfzM4Baz70OjEU54EhsCpvuQWlIhukPg.jpg')
+}
+
+.hero-philliphs-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/81/82/84/360_F_181828448_83EkBoXk1RpUmCQxSoq5J376UHYC4xs2.jpg')
+}
+
+.hero-turkey-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-vector/turkey-flag-design-waving-turkish-flag-made-satin-silk-fabric-vector-illustration_191567-70.jpg')
+}
+
+.hero-sri-lanka-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/989948936/photo/flag-of-sri-lanka.jpg?s=612x612&w=0&k=20&c=8DcmNrmGh-ER6mxfs9-S17GEsQ31f4rNJVtpJsKQZJM=')
+}
+
+.hero-thailand-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/41/02/7c/41027c44427e666b9a71c57a9bf95c1e.jpg')
+}
+
+.hero-singapore-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-vector/flag-singapore-background-template_19426-577.jpg')
+}
+
+.hero-maledives-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/maldives-flag-nomonkey-b.jpg')
+}
+
+.hero-armenia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.advantour.com/img/armenia/images/flag.jpg')
+}
+
+.hero-qatar-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/03/39/91/77/360_F_339917756_IrUxY7fl0taqoWyilK2R2lSwUG3x30ZC.jpg')
+}
+
+.hero-cyprus-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1349793384/photo/flag-of-cyprus.jpg?s=612x612&w=0&k=20&c=w0IfyvdQxhKTFuWzAPBK5JLdDX8qKspfwnmwldl74Sc=')
+}
+
+.hero-australia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.thenavigationcentre.com.au/cdn/shop/products/AustralianFlag_729x.jpg?v=1642753118')
+}
+
+.hero-new-zeland-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://image.cnbcfm.com/api/v1/image/102907446-2170-kyle-lockwood-silver-fern-nz-flag-final-cr-3.png?v=1439208962&w=720&h=405')
+}
+
+.hero-fiji-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1143935465/photo/fiji-flag.jpg?s=612x612&w=0&k=20&c=Yl2bQNOI1mQ31W52UKzVunO0tkfIPfYzcFm5iyUfUUM=')
+}
+
+.hero-solomon-islands-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/1180031625/photo/solomon-islands-flag.jpg?s=612x612&w=0&k=20&c=uGYtkMLn2E7WM-m9aY2DIhkkgWiXgADwTTPOZ3I0u_A=')
+}
+
+.hero-new-guinea-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/04/52/70/12/360_F_452701234_w2Md0mA4ptiMsatJPTjdgrJeddyH0ICx.jpg')
+}
+
+.hero-edgypt-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/00/42/90/78/360_F_42907895_qbW5Aa3T6oEbyBcu8QJ94241lSGd0Fbg.jpg')
+}
+
+.hero-tanzania-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/00/50/52/53/360_F_50525335_TQOi6mxs0AgjkVXEIAAx1Z4y7bi27L5Q.jpg')
+}
+
+.hero-morocco-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/originals/85/08/e5/8508e5c2a620e6fbdddb9153b18d130a.jpg')
+}
+
+.hero-kenya-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/801192700/vector/vector-national-flag-of-kenya.jpg?s=612x612&w=0&k=20&c=lQnrq6cESFqHnjE8q9oSPP_7-Io4S-kgntrtngOORUg=')
+}
+
+.hero-ghana-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Ghana-Flag.jpg/1280px-Ghana-Flag.jpg')
+}
+
+.hero-usa-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/a9/cf/4a/a9cf4ae1faee0af9b338cb93a43aa316.jpg')
+}
+
+.hero-canada-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/486037941/photo/canada-flag.jpg?s=612x612&w=0&k=20&c=7AP6KAquwCxleQink3KbbB7kvinMTlS3BO87_r2UDec=')
+}
+
+.hero-brazil-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t3.ftcdn.net/jpg/01/63/82/20/360_F_163822042_fh2VMaxEJKHpyVF3tjm4pOMdr5ZJiaUE.jpg')
+}
+
+.hero-mexico-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://miro.medium.com/v2/resize:fit:960/1*iZj1B74Yf_XljvcvaFbKAA.jpeg')
+}
+
+.hero-comlobia-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/981402600/photo/colombia-flag-waving-background.jpg?s=612x612&w=0&k=20&c=vXnWyaKGe34KVWiuaBsHJqqsNPpUDZ4F3TG2QtWwneo=')
+}
+
+.hero-domnician-republic-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.ebayimg.com/images/g/rVYAAOSwJVtjQH-V/s-l1200.webp')
+}
+
+.hero-cuba-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/premium-vector/flag-cuba-country-nation-symbol-3d-textile-satin-effect-background-wallpaper-vector_667511-965.jpg')
+}
+
+.hero-jamaica-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://t4.ftcdn.net/jpg/02/90/60/21/360_F_290602134_KtEGmGUccG2TKp6LyVRN2BYHhBIq7uFI.jpg')
+}
+
+.hero-bahamas-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://media.istockphoto.com/id/523487212/photo/bahamas-flag.jpg?s=612x612&w=0&k=20&c=GEDAIjKdWLIqm1I8rXupVB7Dr-39t_pDA38LOzlGdk8=')
+}
+
+.hero-barbados-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.pinimg.com/736x/a5/ed/bb/a5edbb74b3e0b42b5af1b08412c90171.jpg')
+}
+
+.hero-japan-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -780px;
+    margin-bottom: 20px;
+}
+
+.hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-tanzania-image, .hero-morocco-image, .hero-kenya-image, .hero-ghana-image, .hero-canada-image, .hero-brazil-image, .hero-mexico-image, .hero-comlobia-image {
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.hero-singapore-image, .hero-maledives-image, .hero-armenia-image, .hero-qatar-image, .hero-cyprus-image {
+    height: 100px;
+    width: 250px;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.hero-australia-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -820px;
+    margin-bottom: 20px;
+}
+
+.hero-edgypt-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -800px;
+    margin-bottom: 20px;
+}
+
+.hero-usa-image {
+    margin-top: 100px;
+    height: 100px;
+    width: 250px;
+    margin-left: -930px;
+    margin-bottom: 20px;
+}
+
+.hero-domnician-republic-image, .hero-cuba-image, .hero-jamaica-image, .hero-bahamas-image, .hero-barbados-image {
+    margin-top: 20px;
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.end-of-box {
+    background-color: #0C1435;
+    border: 2px solid #000000;
+    color: white;
+    width: 800px;
+    margin-left: 350px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.end-of-option-info-box {
+    background-color: #0C1435;
+    border: 2px solid #000000;
+    color: white;
+    width: 900px;
+    margin-left: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.go-to-contact-button {
+    width: 200px;
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 350px;
+}
+
+.go-to-contact-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero-italy-image, .hero-switzerland-image, .hero-scotland-image, .hero-poland-image, .hero-denmark-image, .hero-latvia-image, .hero-england-image, .hero-germany-hero, .hero-france-hero, .hero-greece-hero, .hero-belgium-hero, .hero-crotia-image, .hero-irland-image, .hero-wales-image, .hero-austria-image, .hero-luxemborg-image, .hero-protugal-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image, .hero-japan-image, .hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-singapore-image, .hero-maledives-image, .hero-armenia-image, .hero-qatar-image, .hero-cyprus-image, .hero-australia-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-edgypt-image, .hero-tanzania-image, .hero-morocco-image, .hero-kenya-image, .hero-ghana-image, .hero-usa-image, .hero-canada-image, .hero-brazil-image, .hero-mexico-image, .hero-comlobia-image, .hero-cuba-image, .hero-domnician-republic-image, .hero-jamaica-image, .hero-bahamas-image, .hero-barbados-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

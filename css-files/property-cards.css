@@ -1,0 +1,113 @@
+.wrap { flex-wrap: wrap; }
+
+.estate-italy {
+    display: flex;
+}
+
+.properties-container, .properties-container-one, .properties-container-three {
+    height: 300x;
+    width: 650px;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.properties-container-three {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.estate-photo {
+    float: left;
+    height: 220px;
+    width: 325px;
+}
+
+.estate-photo img {
+    height: 220px;
+    width: 325px;
+    border-radius: 7px 0 0 7px;
+}
+
+.estate-info {
+    float: left;
+  height: 220px;
+  width: 325px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #203036;
+}
+
+.estate-info-text {
+    height: 220px;
+    width: 325px;
+    margin-left: -5px;
+}
+
+.estate-info-text h1 {
+  width: 325px;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.estate-info-text p {
+    height: 110px;
+    text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: lighter;
+  padding-left: 5px;
+}
+
+.properties-container {
+  margin-left: 50px;
+}
+
+.estate-price {
+    float: right;
+    margin-top: -115px;
+    margin-right: 100px;
+    color: #ffffff;
+}
+
+.estate-price-one {
+  float: right;
+    margin-top: -115px;
+    margin-right: 100px;
+    color: #ffffff;
+}
+
+.estate-price p, .estate-price-one p {
+  font-size: 25px;
+}
+
+#estate-button a, #estate-button-one a {
+    float: right;
+    background-color: #0C1435;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 80px;
+    margin-top: -40px;
+    width: 170px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid #ffffff;
+}
+
+.estate-italy h2 {
+  text-align: center;
+  margin-left: 550px;
+}
+
+.properties-container {
+  margin-top: 130px;
+  margin-left: -830px;
+}
+
+.properties-container-one {
+  margin-top: 130px;
+  margin-left: 20px;
+}
