@@ -1,0 +1,99 @@
+.content {
+  display: flex;
+}
+
+.rent-properties-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.rentals {
+  display: inline-flex;
+  justify-self: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 7%;
+}
+
+.property {
+  margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 485px;
+    height: 580px;
+    background-color:#556165;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    &:hover {
+      transform: scale(1.05);
+      background-color:#203036;
+    }
+  }
+  
+  .property img {
+    object-fit: cover;
+    object-position: center;
+    width: 485px;
+    height: 350px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  .property-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    line-height: 0px;
+    font-size: 25px;
+  }
+
+  .property-text span {
+    font-weight: bold;
+  }
+
+  .top-filter-rent {
+    background-color: #556165;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    color: white;
+    width: 100%;
+    min-width: 250px;
+    h2 {
+      font-size: 33px
+    }
+  }
+
+  .gobackbutton {
+    margin-top: 25px;
+  }
+
+  .gobackbutton a {
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #203036;
+    border-radius: 9999px;
+    &:hover {
+      transform: scale(2.5);
+      box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  .filters {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+
+  .filtercontainer input {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+  }
+
