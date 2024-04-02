@@ -8,6 +8,7 @@
   margin-bottom: 100px;
   margin-left: 5%;
   margin-right: 1%;
+  width: 100%;
 }
 .rentals {
   display: inline-flex;
@@ -15,13 +16,16 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 5%;
+  margin-right: 2%;
 }
 
 .property {
   margin-bottom: 50px;
     display: flex;
     flex-direction: column;
-    width: 485px;
+    max-width: 35.5%;
+    min-width: 30%;
+   /* width: 485px; */
     height: 560px;
     background-color:#556165;
     border-radius: 5px;
@@ -35,8 +39,9 @@
   .property img {
     object-fit: cover;
     object-position: center;
-    width: 485px;
+    background-size: cover;
     height: 350px;
+    width: 100%;
     border-radius: 5px 5px 0px 0px;
   }
   .property-text {
@@ -124,6 +129,7 @@
       margin-bottom: 75px;
     }
     
+    /*
     .property {
       width: 450px;
     }
@@ -135,6 +141,8 @@
     .top-filter-rent {
       width: 150px;
     }
+
+    */
   }
 
   @media (max-width: 1409px) {
@@ -149,6 +157,7 @@
       gap: 2%;
     }
 
+    /*
     .property {
       width: 400px;
     }
@@ -168,4 +177,5 @@
         font-size: 25px
       }
     }
+    */
   }
