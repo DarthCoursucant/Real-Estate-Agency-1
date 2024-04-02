@@ -91,11 +91,11 @@ body {
     position: relative;
 
     .slides {
-
         display: none; 
 
         img {
-            width: 100%;
+            width: 875px;
+            height: 750px;
             object-fit: cover;
             border-radius: 5px;
         }
@@ -127,9 +127,10 @@ body {
         text-align: center;
         font-size: 20px;
         position: absolute;
-        top: 76.8%;
+        top: 92.5%;
         left: 35%;
         color: #203036;
+
         p {
             background-color: white;
             padding-left: 30px;
