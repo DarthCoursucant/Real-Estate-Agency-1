@@ -6,22 +6,26 @@
   .rent-properties-content {
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 1%;
+    width: 100%;
   }
+
   .rentals {
     display: inline-flex;
     justify-self: flex-start;
     align-items: center;
     flex-wrap: wrap;
     gap: 7%;
+    margin-right: 2%;
   }
-  
+
   .property {
-    margin-bottom: 50px;
+    margin-bottom: 75px;
       display: flex;
       flex-direction: column;
-      width: 485px;
+      max-width: 35.5%;
+      min-width: 30%;
       height: 560px;
       background-color:#556165;
       border-radius: 5px;
@@ -29,41 +33,44 @@
       &:hover {
         transform: scale(1.05);
         background-color:#203036;
-        box-shadow: 2px 2px 10px 2px rgba(251, 255, 0, 0.650);
+        box-shadow: 2px 2px 10px 2px rgba(221, 255, 2, 0.565);
       }
-      img {
+  }
+  
+  .property .property-top img {
+      object-fit: cover;
+      object-position: center;
+      background-size: cover;
+      width: 100%;
+      border-radius: 5px 5px 0px 0px;
+  }
+
+  .property-house {
+      margin-bottom: 75px;
+        display: flex;
+        flex-direction: column;
+        max-width: 35.5%;
+        min-width: 30%;
+        height: 560px;
+        background-color:#556165;
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+        &:hover {
+          transform: scale(1.05);
+          background-color:#203036;
+          box-shadow: 2px 2px 10px 2px rgba(0, 179, 255, 0.468);
+        }
+  }
+
+  .property-house .property-top img {
         object-fit: cover;
         object-position: center;
-        width: 485px;
-        height: 350px;
+        background-size: cover;
+        width: 100%;
         border-radius: 5px 5px 0px 0px;
-      }
-    }
+  }
 
-    .property-house {
-        margin-bottom: 50px;
-          display: flex;
-          flex-direction: column;
-          width: 485px;
-          height: 560px;
-          background-color:#556165;
-          border-radius: 5px;
-          box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
-          &:hover {
-            transform: scale(1.05);
-            background-color:#203036;
-            box-shadow: 2px 2px 10px 2px rgba(0, 89, 133, 0.650);
-          }
-          img {
-            object-fit: cover;
-            object-position: center;
-            width: 485px;
-            height: 350px;
-            border-radius: 5px 5px 0px 0px;
-          }
-     }
-
-    .property-top {
+  .property-top {
         position: relative;
         .category{
             color: #203036;
@@ -105,16 +112,17 @@
                 border-radius: 0px 0px 9999px 9999px;
             }
         }
-    }
+  }
 
-    .property-top img {
+  .property-top img {
       object-fit: cover;
       object-position: center;
       width: 485px;
       height: 350px;
       border-radius: 5px 5px 0px 0px;
-    }
-    .property-text {
+  }
+
+  .property-text {
       color: white;
       display: flex;
       flex-direction: column;
@@ -126,13 +134,13 @@
         font-size: 27px;
         margin-bottom: 25px;
       }
-    }
-  
-    .property-text span {
+  }
+
+  .property-text span {
       font-weight: bold;
-    }
+  }
   
-    .top-filter-rent {
+  .top-filter-rent {
       background-color: #556165;
       display: flex;
       flex-direction: column;
@@ -140,7 +148,7 @@
       padding-bottom: 75px;
       border-radius: 0px 0px 5px 0px;
       color: white;
-      width: 100%;
+      width: 250px;
       height: 100%;
       min-width: 250px;
       overflow: scroll;
@@ -154,14 +162,14 @@
       h2 {
         font-size: 27px
       }
-    }
+  }
   
-    .gobackbutton {
+  .gobackbutton {
       margin-top: 25px;
       margin-bottom: 25px;
-    }
+  }
   
-    .gobackbutton a {
+  .gobackbutton a {
       color: white;
       font-size: 20px;
       list-style: none;
@@ -176,20 +184,65 @@
         box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
         opacity: 100%;
       }
-    }
+  }
   
-    .filters {
+  .filters {
       display: flex;
       flex-direction: column;
       gap: 15px;
       margin-bottom: 30px;
       font-size: 22px;
-    }
+  }
   
-    .filtercontainer input {
+  .filtercontainer input {
       cursor: pointer;
       height: 25px;
       width: 25px;
-    }
+  }
   
+  @media (max-width: 1492px) {
+
+      .rent-properties-content {
+        margin-top: 75px;
+        margin-bottom: 75px;
+        margin-left: 5%;
+      }
   
+      .top-filter-rent {
+        width: 150px;
+      }
+  
+      .property {
+        margin-bottom: 45px;
+      }
+  }
+  
+  @media (max-width: 1409px) {
+      .rent-properties-content {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 2.5%;
+        margin-right: 0.5%;
+      }
+  
+      .property {
+        margin-bottom: 25px;
+      }
+  
+      .rentals {
+        gap: 2%;
+      }
+      .top-filter-rent {
+        padding-left: 25px;
+        padding-bottom: 45px;
+        width: 200px;
+        p {
+          font-size: 17px;
+          width: 200px;
+        }
+        h2 {
+          font-size: 25px
+        }
+      }
+  
+  }
