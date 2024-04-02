@@ -92,7 +92,7 @@ body {
 
     .slides {
 
-        /* display: none; */
+        display: none; 
 
         img {
             width: 100%;
@@ -127,7 +127,7 @@ body {
         text-align: center;
         font-size: 20px;
         position: absolute;
-        top: 81.6%;
+        top: 76.8%;
         left: 35%;
         color: #203036;
         p {
@@ -138,9 +138,22 @@ body {
             padding-bottom: 10px;
             width: 100%;
             border-radius: 999px 999px 0px 0px;
+            font-weight: bold;
         }
     }
 }
+
+.photo-number {
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    background-color: white;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 999px 0px;
+}
+
+
 
 
 .submit-button {
