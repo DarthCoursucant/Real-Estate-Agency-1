@@ -167,15 +167,26 @@
   width: 450px;
   font-size: 20px;
   display: flex;
-  background-color: #203036;
+  background-color: #0C1435;
   border-radius: 20px;
   margin-left: 25px;
   margin-top: 20px;
   color: #ffffff;
   text-align: center;
   border: 2px solid #000000;
+  margin-bottom: 30px;
 }
 
 #book-a-tour-info-box h1, #price-info-box h1, #building-maybe-box h1 {
   font-size: 25px;
+}
+
+#book-a-tour-info-box {
+  height: 330px;
+  margin-top: 90px;
+}
+
+#building-maybe-box {
+  height: 350px;
+  margin-top: 85px;
 }
