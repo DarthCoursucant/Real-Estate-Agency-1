@@ -132,8 +132,13 @@
   margin-left: 365px;
 }
 
-.properties-container-rome-house-one {
+.properties-container-rome-house-one, .properties-container-venice-house {
   margin-top: 30px;
   margin-left: 30px;
+}
+
+.properties-container-venice {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
