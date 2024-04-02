@@ -1,6 +1,6 @@
 .wrap { flex-wrap: wrap; }
 
-.estate-naples, .estate-rome, .estate-venice, .estate-florence {
+.estate-naples, .estate-rome, .estate-venice, .estate-florence, .flex-three-info-boxes, .estate-geneva {
     display: flex;
 }
 
@@ -144,4 +144,67 @@
 
 .properties-container-florence-last {
   margin-bottom: 30px;
+}
+
+#page-location-info-box {
+  background-color: #0C1435;
+  width: 900px;
+  margin-left: 250px;
+  color: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px 5px 5px 5px;
+  margin-top: 20px;
+  border: 2px solid #000000;
+}
+
+#page-location-info-box h1 {
+  font-size: 30px;
+}
+
+#book-a-tour-info-box, #price-info-box, #building-maybe-box {
+  width: 450px;
+  font-size: 20px;
+  display: flex;
+  background-color: #0C1435;
+  border-radius: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+  border: 2px solid #000000;
+  margin-bottom: 30px;
+}
+
+#book-a-tour-info-box h1, #price-info-box h1, #building-maybe-box h1 {
+  font-size: 25px;
+}
+
+#book-a-tour-info-box {
+  height: 330px;
+  margin-top: 90px;
+}
+
+#building-maybe-box {
+  height: 350px;
+  margin-top: 85px;
+}
+
+.properties-geneva {
+  margin-left: 20px;
+}
+
+.estate-geneva h2 {
+  margin-left: 500px;
+}
+
+.properties-geneva {
+  margin-top: 150px;
+  margin-left: -850px;
+}
+
+.properties-geneva-house {
+  margin-left: 40px;
+  margin-top: 150px;
 }
