@@ -122,7 +122,7 @@
   margin-left: 20px;
 }
 
-.properties-container-naples-house-four, .properties-container-rome-house, .properties-container-rome-house-two {
+.properties-container-naples-house-four, .properties-container-rome-house, .properties-container-rome-house-two, .properties-container-florence-one {
   margin-top: 30px;
   margin-left: 40px;
 }
@@ -132,13 +132,12 @@
   margin-left: 365px;
 }
 
-.properties-container-rome-house-one, .properties-container-venice-house, .properties-container-venice-house-two {
+.properties-container-rome-house-one, .properties-container-venice-house, .properties-container-venice-house-two, .properties-container-florence-house {
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.properties-container-venice {
+.properties-container-venice, .properties-container-florence {
   margin-top: 20px;
   margin-left: 40px;
 }
-
