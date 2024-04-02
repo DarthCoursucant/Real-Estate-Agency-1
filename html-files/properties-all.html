@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="../css-files/header-footer.css">
+    <link rel="stylesheet" href="../css-files\properties-all.css">
+    <meta charset="UTF-8">
+    <meta name="Rent Page Real Estate Agency" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AKB">
+    <title>All Properties on Market</title>
+</head>
+
+<body>
+
+    <script src="https://kit.fontawesome.com/2ef99fbf3a.js" crossorigin="anonymous">
+    </script>
+
+    <!--Header-->
+    <header class="page-header">
+        <div id="header-logo">
+            <a href="./index.html">
+                <img src="../media/example_2.png">
+            </a>
+        </div>
+        <div id="header-icons">
+            <a href="./login.html">
+                <img src="../media/account.png">
+            </a>
+            <img src="../media/line.png">
+        </div>
+        <div id="links-header">
+            <a href="./construction.html">Build</a>
+            <a href="./rent.html">Rent</a>
+            <a href="./sell.html">Sell</a>
+            <a href="./buy.html">Buy</a>
+        </div>
+    </header>
+
+    <!--Content-->
+    <main class="page-body">
+
+        <div class="content">
+
+            <div class="top-filter-rent">
+
+                <div class="gobackbutton">
+                    <a href="index.html"><i class="fa-solid fa-arrow-left"></i> Go Back</a>
+                </div>
+
+                <p>You can personalize your search here</p>
+
+                <h2>Property Type:</h2>
+                <div class="filters">
+
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Apartment
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> House
+                    </label>
+
+                </div>
+
+                <h2>Published:</h2>
+                <div class="filters">
+
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Today
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> This Week
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> This Month
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> This Year
+                    </label>
+
+                </div>
+
+                <h2>Location:</h2>
+                <div class="filters">
+
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Bergen
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Oslo
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Trondheim
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Molde
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Stavanger
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Haugesund
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Bodø
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Drammen
+                    </label>
+                    <label class="filtercontainer">
+                        <input type="checkbox">
+                        <span class="checkmark"></span> Kristiansand
+                    </label>
+
+                </div>
+
+                <div class="budget-slider">
+                    <h2>Budget:</h2>
+                    <div class="budget-price">
+                        <span>Min:</span>
+                        <input type="number" class="input-min" value="500">
+                    </div> 
+                    <div class="budget-price">
+                        <span>Max:</span>
+                        <input type="number" class="input-max" value="1000">
+                    </div> 
+                </div>
+
+            </div>
+    
+            <div class="rent-properties-content">
+
+                <div class="properties-rent">
+
+                    <div class="rentals">
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap1.webp" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Hudsons Apartments</h2>
+                                    <p>22B Baker Street</p>
+                                    <p>4 Rooms</p>
+                                    <p><span>439 000$</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/house1.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap2.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/house2.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/house3.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/lasseap.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Lǎoshī</h2>
+                                    <p>Kvernhusrenen 3C</p>
+                                    <p>4 Rooms</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap5.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/naples-house-one.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/luxury-house.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap10.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/ap6.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/house5.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap13.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/florence-house.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap14.webp" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap9.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property-house">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category-house">
+                                        <p>House</p>
+                                    </div>
+                                    <img src="/photos/venice-house-sell.jpeg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap11.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="property">
+                            <a href="property-detail.html">
+                                <div class="property-top">
+                                    <div class="category">
+                                        <p>Apartment</p>
+                                    </div>
+                                    <img src="/photos/ap12.jpg" alt="">
+                                </div>
+                                <div class="property-text">
+                                    <h2>Property Name</h2>
+                                    <p>Location</p>
+                                    <p>Rom Amount</p>
+                                    <p><span>Total Price</span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    
+    </main>
+
+    <!--Footer-->
+    <footer class="page-footer">
+        <div class="footer-about">
+            <p>About Us</p>
+            <a href="./about.html">About Us</a>
+            <br>
+            <a href="./contact.html">Contact Us</a>
+        </div>
+        <div class="footer-work">
+            <p>Our Work</p>
+            <a href="./staff.html">Our Staff</a>
+            <br>
+            <a href="./work-for-us.html">Work</a>
+        </div>
+        <div class="footer-services-1">
+            <p>Buy Or Sell</p>
+            <a href="./buy.html">Buy</a>
+            <br>
+            <a href="./sell.html">Sell</a>
+        </div>
+        <div class="footer-services-2">
+            <p>Build Or Rent</p>
+            <a href="./construction.html">Build</a>
+            <br>
+            <a href="./rent.html">Rent</a>
+        </div>
+        <div class="social-media">
+            <p>Social Media</p>
+            <a href="https://www.instagram.com/noroff/">
+                <img src="../media/instagram.png">
+            </a>
+            <a href="https://www.facebook.com/noroff">
+                <img src="../media/facebook.png">
+            </a>
+            <a href="https://www.youtube.com/channel/UCyDPAsKvRn8fkEM8IkQeLSQ">
+                <img src="../media/yotube.png">
+            </a>
+            <a href="https://twitter.com/noroff?lang=en">
+                <img src="../media/twiiter.png">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

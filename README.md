@@ -1,5 +1,5 @@
 # Real-Estate-Agency-1
-by Amelia, Weronika and Toby?
+by Amelia and Weronika :)
 
 
 <!DOCTYPE html>

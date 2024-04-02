@@ -1,0 +1,195 @@
+.content {
+    display: flex;
+    overflow-x: hidden;
+  }
+  
+  .rent-properties-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .rentals {
+    display: inline-flex;
+    justify-self: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7%;
+  }
+  
+  .property {
+    margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      width: 485px;
+      height: 560px;
+      background-color:#556165;
+      border-radius: 5px;
+      box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+      &:hover {
+        transform: scale(1.05);
+        background-color:#203036;
+        box-shadow: 2px 2px 10px 2px rgba(251, 255, 0, 0.650);
+      }
+      img {
+        object-fit: cover;
+        object-position: center;
+        width: 485px;
+        height: 350px;
+        border-radius: 5px 5px 0px 0px;
+      }
+    }
+
+    .property-house {
+        margin-bottom: 50px;
+          display: flex;
+          flex-direction: column;
+          width: 485px;
+          height: 560px;
+          background-color:#556165;
+          border-radius: 5px;
+          box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+          &:hover {
+            transform: scale(1.05);
+            background-color:#203036;
+            box-shadow: 2px 2px 10px 2px rgba(0, 89, 133, 0.650);
+          }
+          img {
+            object-fit: cover;
+            object-position: center;
+            width: 485px;
+            height: 350px;
+            border-radius: 5px 5px 0px 0px;
+          }
+     }
+
+    .property-top {
+        position: relative;
+        .category{
+            color: #203036;
+            position: absolute;
+            left: 33%;
+            top: 0px;
+            padding: 0px;
+            margin-top: 0px;
+
+            p{
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 0px;
+                background-color: white;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 5px;
+                padding-bottom: 10px;
+                border-radius: 0px 0px 9999px 9999px;
+            }
+        }
+        .category-house{
+            color: #203036;
+            position: absolute;
+            left: 36%;
+            top: 0px;
+            padding: 0px;
+            margin-top: 0px;
+
+            p{
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 0px;
+                background-color: white;
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-top: 5px;
+                padding-bottom: 10px;
+                border-radius: 0px 0px 9999px 9999px;
+            }
+        }
+    }
+
+    .property-top img {
+      object-fit: cover;
+      object-position: center;
+      width: 485px;
+      height: 350px;
+      border-radius: 5px 5px 0px 0px;
+    }
+    .property-text {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-self: center;
+      line-height: 0px;
+      font-size: 22px;
+      h2 {
+        font-size: 27px;
+        margin-bottom: 25px;
+      }
+    }
+  
+    .property-text span {
+      font-weight: bold;
+    }
+  
+    .top-filter-rent {
+      background-color: #556165;
+      display: flex;
+      flex-direction: column;
+      padding-left: 50px;
+      padding-bottom: 75px;
+      border-radius: 0px 0px 5px 0px;
+      color: white;
+      width: 100%;
+      height: 100%;
+      min-width: 250px;
+      overflow: scroll;
+      p {
+        font-size: 19px;
+        width: 240px;
+        font-style: italic;
+        opacity: 75%;
+        margin-bottom: 0px;
+      }
+      h2 {
+        font-size: 27px
+      }
+    }
+  
+    .gobackbutton {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+  
+    .gobackbutton a {
+      color: white;
+      font-size: 20px;
+      list-style: none;
+      padding: 5px;
+      padding-left: 15px;
+      padding-right: 15px;
+      background-color: #203036;
+      border-radius: 9999px;
+      opacity: 75%;
+      &:hover {
+        transform: scale(2.5);
+        box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+        opacity: 100%;
+      }
+    }
+  
+    .filters {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 30px;
+      font-size: 22px;
+    }
+  
+    .filtercontainer input {
+      cursor: pointer;
+      height: 25px;
+      width: 25px;
+    }
+  
+  
