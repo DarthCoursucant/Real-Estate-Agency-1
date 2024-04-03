@@ -1,14 +1,15 @@
-
-
 .content {
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 2.5%;
-    margin-bottom: 5%;
+    margin-bottom: 200px;
     color: white;
-    background-color: #203036;
+    background-color: #414e53;
     border-radius: 5px;
-    height: 92%;
+    background-image: url(/photos/squiggly2-dark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     h2 {
         font-size: 35px;
         margin-bottom: 15px;
@@ -46,7 +47,7 @@
 
         .terms-conditions {
             opacity: 65%;
-            font-size: 22px;
+            font-size: 20px;
             margin-right: 10%;
         }
 
@@ -56,96 +57,160 @@
 .filloutform-1 {
     margin-bottom: 100px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    .intention{
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 25%;
+
+    .intention {
         margin-right: 10%;
+    }
+
+    .type {
+        margin-right: 0%;
     }
 }
 
 .filloutform-2 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 12%;
     margin-bottom: 100px;
+
     .prop-name-and-location{
         margin-right: 10%;
+
+        .property-info {
+            margin-top: 0px;
+            margin-bottom: 50px;
+            padding-bottom: 5px;
+            width: 300px;
+        }
+    }
+
+    .prop-desc {
+        margin-right: 2%;
+
+        label {
+            width: 250px;
+
+            .property-info-description {
+                margin-top: 0px;
+                margin-bottom: 50px;
+                width: 500px;
+                padding-bottom: 200px;
+            }
+        }
     }
 }
 
 .filloutform-3-4-5 {
     display: flex;
     flex-wrap: wrap;
-}
-
-.filloutform-3 {
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 10%;
     margin-bottom: 100px;
-    margin-right: 12%;
-    .bedroom {
-        margin-left: 62px;
-        width: 75px;
-        padding-bottom: 5px;
-    }
-    .kitchen {
-        margin-left: 80px;
-        width: 75px;
-        padding-bottom: 5px;
-    }
-    .living {
-        margin-left: 10px;
-        width: 75px;
-        padding-bottom: 5px;
-    }
-    .floors{
-        margin-left: 15px;
-        width: 75px;
-        padding-bottom: 5px;
-    }
-}
 
-.filloutform-4 {
-    margin-right: 12%;
-    margin-bottom: 100px;
-}
+    .filloutform-3 {
+        font-size: 25px;
+        margin-right: 10%;
+        .bedroom {
+            margin-left: 51px;
+            width: 75px;
+            padding-bottom: 5px;
+        }
+        .kitchen {
+            margin-left: 65px;
+            width: 75px;
+            padding-bottom: 5px;
+        }
+        .living {
+            margin-left: 11px;
+            width: 75px;
+            padding-bottom: 5px;
+        }
+        .floors{
+            margin-left: 15px;
+            width: 75px;
+            padding-bottom: 5px;
+        }
+        .property-details {
+            display: flex;
+            flex-direction: column;
+            
+        }
+    }
 
-.filloutform-5 {
-    margin-bottom: 100px;
+    .filloutform-4 {
+        margin-right: 7%;
+    }
+    
+    .filloutform-5 {
+        .answer-no {
+            margin-top: 15px;
+            font-size: 25px;
+        }
+    }
+    
 }
 
 .filloutform-6 {
     margin-bottom: 50px;
+    font-size: 28px;
+    margin-left: 2%;
+    margin-right: 5%;
 }
 
-.property-details {
-    display: flex;
-    flex-direction: column;
-}
+@media (max-width: 1440px) {
+    .filloutform-1 {
+        margin-bottom: 75px;
+        margin-left: 2%;
+        margin-right: 12%;
+    }
+    
+    .filloutform-2 {
+        margin-right: 5%;
+        margin-bottom: 75px;
+    
+        .prop-name-and-location{
+            margin-right: 10%;
+    
+            .property-info {
+                width: 250px;
+            }
+        }
+    
+        .prop-desc {
+            margin-right: 2%;
 
-.property-info {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    padding-bottom: 5px;
-    width: 300px;
-}
+            label {
+                width: 250px;
+    
+                .property-info-description {
+                    margin-top: 0px;
+                    width: 400px;
+                }
+            }
+        }
+    }
+    
+    .filloutform-3-4-5 {
+        margin-left: 2%;
+        margin-right: 5%;
+        margin-bottom: 75px;
 
-.property-info-garden {
-    margin-top: 0px;
-    margin-bottom: 50px;
-}
-.property-info-rent {
-    margin-top: 0px;
-    margin-bottom: 50px;
-}
-.property-info-ap {
-    margin-top: 0px;
-    margin-bottom: 50px;
-}
-
-
-.property-info-description {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    width: 700px;
-    padding-bottom: 200px;
-}
-
+        .filloutform-4 {
+            margin-right: 5%;
+        } 
+    }
+    
+    .filloutform-6 {
+        margin-bottom: 50px;
+        font-size: 28px;
+        margin-left: 2%;
+        margin-right: 5%;
+    }
+  }
