@@ -1,12 +1,13 @@
 .content {
   display: flex;
   overflow-x: hidden;
+  width: 100%;
 }
 
 .rent-properties-content {
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left: 10%;
+  margin-left: 400px;
   margin-right: 1%;
   width: 100%;
 }
@@ -21,15 +22,15 @@
 
 .property {
   margin-bottom: 75px;
-    display: flex;
-    flex-direction: column;
-    max-width: 35.5%;
-    min-width: 30%;
+  display: flex;
+  flex-direction: column;    
+  max-width: 35.5%;
+  min-width: 350px;
    /* width: 485px; */
-    height: 560px;
-    background-color:#556165;
-    border-radius: 5px;
-    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+  height: 560px;
+  background-color:#556165;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
     &:hover {
       transform: scale(1.05);
       background-color:#203036;
@@ -62,71 +63,12 @@
     font-weight: bold;
   }
 
-  .top-filter-rent {
-    background-color: #556165;
-    display: flex;
-    flex-direction: column;
-    padding-left: 50px;
-    padding-bottom: 75px;
-    border-radius: 0px 0px 5px 0px;
-    color: white;
-    width: 250px;
-    height: 100%;
-    min-width: 250px;
-    overflow: scroll;
-    p {
-      font-size: 19px;
-      width: 240px;
-      font-style: italic;
-      opacity: 75%;
-      margin-bottom: 0px;
-    }
-    h2 {
-      font-size: 27px
-    }
-  }
-
-  .gobackbutton {
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-
-  .gobackbutton button {
-    color: white;
-    font-size: 17px;
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #203036;
-    border-radius: 9999px;
-    opacity: 75%;
-    border: solid 2px #203036;
-    &:hover {
-      box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
-      opacity: 100%;
-    }
-  }
-
-  .filters {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 30px;
-    font-size: 22px;
-  }
-
-  .filtercontainer input {
-    cursor: pointer;
-    height: 25px;
-    width: 25px;
-  }
-
   @media (max-width: 1492px) {
 
     .rent-properties-content {
       margin-top: 75px;
       margin-bottom: 75px;
-      margin-left: 5%;
+      margin-left: 350px;
     }
 
     .top-filter-rent {
@@ -142,7 +84,6 @@
     .rent-properties-content {
       margin-top: 25px;
       margin-bottom: 25px;
-      margin-left: 2.5%;
       margin-right: 0.5%;
     }
 

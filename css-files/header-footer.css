@@ -20,6 +20,7 @@ html, body {
     color: #fafafa;
     background-color: #203036;
     padding: 10px;
+    z-index: 99999;
   }
   
   main.page-body {
