@@ -147,7 +147,7 @@ html, body {
   }
 
   #footer-about-box {
-    margin-left: 90px;
+    margin-left: 130px;
   }
 
   #footer-work-box, #footer-services-box {
@@ -178,6 +178,18 @@ html, body {
     margin-top: 320px;
     margin-left: -150px;
     display: flex;
+  }
+
+  #footer-services-box a {
+    margin-left: 50px;
+  }
+
+  #footer-work-box {
+    margin-left: 100px;
+  }
+
+  #footer-services-box {
+    margin-left: 100px;
   }
 
   /* END FOOTER*/
