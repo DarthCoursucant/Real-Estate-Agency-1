@@ -55,6 +55,9 @@
     h2 {
         font-size: 40px;
     }
+    h3 {
+        font-size: 33px;
+    }
     h4 {
         font-size: 30px;
         margin-bottom: 0px;
@@ -207,3 +210,10 @@
     margin-top: 100px;
 }
 
+#FAQ {
+    margin-top: 150px;
+}
+
+#faq-options {
+    margin-bottom: 75px;
+}
