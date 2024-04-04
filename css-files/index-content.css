@@ -112,7 +112,7 @@ body {
 .content1-properties {
   margin-top: 100px;
   margin-bottom: 100px;
-  margin-left: 150px;
+  margin-left: 10%;
   h2 {
     color: #203036;
   }
@@ -479,6 +479,39 @@ body {
 /* Make it responsive to smaller size screen*/
 
 @media (max-width: 1760px) {
+
+  .content1-properties {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-right: 10%;
+  }
+
+  .properties {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  #last-property-all {
+    .property-next-button {
+      margin-top: 145px;
+      margin-left: 150px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+
+  .content1-properties {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    h2 {
+      font-size: 35px;
+      color: #203036;
+    }
+  }
+
   .properties {
     padding-top: 35px;
     padding-bottom: 35px;
