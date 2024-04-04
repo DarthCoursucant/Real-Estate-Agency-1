@@ -214,6 +214,25 @@
     margin-top: 150px;
 }
 
-#faq-options {
+#faq-questions {
     margin-bottom: 75px;
+}
+
+details {
+    padding: 5px;
+    margin-right: 10%;
+
+    p {
+        margin-left: 5%;
+        background-color: #cad0d2;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
+
+summary {
+}
+
+details[open] {
+    transition: 0.2s;
 }
