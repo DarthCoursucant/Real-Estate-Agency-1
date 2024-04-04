@@ -160,25 +160,35 @@ body {
   border-radius: 5px;
 }
 
-.property-next-button {
-  position: absolute;
-  background-color: green;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 99999px;
-  opacity: 100%;
-  z-index: 1;
-  top: 109%;
-  left: 90%;
-  &:hover {
-    transform: scale(1.5);
+#last-property-all {
+
+  width: 330px;
+  height: 375px;
+
+  .property-next-button {
+    opacity: 100%;
+    position: absolute;
+    z-index: 1;
+    margin-top: 145px;
+    margin-left: 50px;
+    i {
+      background-color: green;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: white;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 99999px;
+      opacity: 100%;
+      z-index: 1;
+    }
+    &:hover {
+      transform: scale(1.6);
+    }
   }
 }
 
-#last-property {
+#last-property-bottom {
   opacity: 25%;
   display: flex;
   flex-direction: column;
@@ -212,6 +222,9 @@ body {
     font-size: 26px;
   }
 }
+
+
+
 
 .content2-eco {
   background-color: #D9D9D9;
@@ -450,7 +463,13 @@ body {
   width: 150%;
 }
 
-/* Make it responsive to smaller size */
+/* Make it responsive to smaller size screen*/
+
+@media (max-width: 1200px) {
+  .properties {
+    overflow-x: scroll;
+  }
+}
 
 @media (max-width: 750px) {
 
