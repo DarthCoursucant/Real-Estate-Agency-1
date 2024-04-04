@@ -88,11 +88,17 @@ html, body {
 
   #footer-info-box {
     float: left;
+    width: 300px;
+    margin-left: 30px;
   }
 
-  #footer-info-box h1, #footer-about-box h1, #footer-work-box h1, #footer-services-box h1, #footer-social-media-box h1 {
+  #footer-info-box h1, #footer-about-box h1, #footer-work-box h1, #footer-services-box h1 {
     font-size: 25px;
     text-align: center;
+  }
+
+  #footer-info-box h1 {
+    margin-left: 20px;
   }
 
   #footer-about-box h1, #footer-work-box h1 {
@@ -155,8 +161,8 @@ html, body {
   }
 
   #footer-call-icon-box {
-    margin-left: -220px;
-    margin-top: 270px;
+    margin-left: -250px;
+    margin-top: 230px;
     display: flex;
   }
 
@@ -175,8 +181,9 @@ html, body {
   }
 
   #footer-mall-icon-box {
-    margin-top: 320px;
+    margin-top: 280px;
     margin-left: -150px;
+    margin-bottom: 20px;
     display: flex;
   }
 
