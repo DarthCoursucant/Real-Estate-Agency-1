@@ -111,6 +111,10 @@ html, body {
     width: 150px;
   }
 
+  #footer-work-box a {
+    margin-left: 110px;
+  }
+
   #footer-about-box a {
     margin-left: 120px;
     text-align: center;
@@ -125,12 +129,16 @@ html, body {
     margin-left: -70px;
   }
 
-  #footer-middle-text {
+  #footer-middle-text, #footer-middle-text-work {
     margin-left: -40px;
   }
 
   #footer-last-text {
     margin-left: 20px;
+  }
+
+  #footer-last-text-work {
+    margin-left: 10px;
   }
 
   #footer-social-media-box {
