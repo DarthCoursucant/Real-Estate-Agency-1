@@ -95,11 +95,11 @@ html, body {
     text-align: center;
   }
 
-  #footer-about-box h1 {
+  #footer-about-box h1, #footer-work-box h1 {
     width: 300px;
   }
 
-  #footer-about-box a, #footer-work-box h1, #footer-work-box a {
+  #footer-about-box a, #footer-work-box a {
     width: 250px;
   }
 
@@ -112,13 +112,17 @@ html, body {
   }
 
   #footer-about-box a {
-    margin-left: 20px;
+    margin-left: 80px;
     text-align: center;
   }
 
   #footer-info-box p, #footer-about-box a {
     font-size: 17px;
     text-align: center;
+  }
+
+  #footer-longer-text {
+    margin-left: -20px;
   }
 
   #footer-social-media-box {
