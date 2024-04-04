@@ -209,12 +209,12 @@
   margin-top: 150px;
 }
 
-.properties-geneva-house-one, .property-zurich {
+.properties-geneva-house-one, .property-zurich, .properties-bern-house {
   margin-top: 20px;
   margin-left: 30px;
 }
 
-.properties-geneva-house-two, .properties-zurich-house {
+.properties-geneva-house-two, .properties-zurich-house, .properties-bern-house-one {
   margin-top: 20px;
   margin-left: 40px;
 }
@@ -223,6 +223,6 @@
   margin-left: 30px;
 }
 
-.properties-zurich {
+.properties-zurich, .properties-bern {
   margin-left: 40px;
 }
