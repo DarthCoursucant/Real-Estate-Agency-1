@@ -4,6 +4,33 @@
     color: #203036;
 }
 
+
+.toppicture {
+    top: 0px;
+    position: relative;
+
+    h1 {
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: absolute;
+        background-color: #203036;
+        top: 55%;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        span {
+            opacity: 75%;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+    }
+}
+
 /* The textbox is the same for each element */
 .textbox {
     margin-bottom: 75px;
