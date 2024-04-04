@@ -90,13 +90,18 @@ html, body {
     float: left;
   }
 
-  #footer-info-box h1, #footer-about-box h1 {
+  #footer-info-box h1, #footer-about-box h1, #footer-work-box h1 {
     font-size: 25px;
     text-align: center;
   }
 
-  #footer-about-box h1, #footer-about-box a {
+  #footer-about-box h1, #footer-about-box a, #footer-work-box h1, #footer-work-box a {
     width: 300px;
+  }
+
+  #footer-about-box a {
+    margin-left: 50px;
+    text-align: center;
   }
 
   #footer-info-box p, #footer-about-box a {
@@ -104,7 +109,7 @@ html, body {
     text-align: center;
   }
 
-  #footer-call-icon-box, #footer-mall-icon-box {
+  #footer-call-icon-box, #footer-mall-icon-box, #footer-social-media-box {
     margin-top: 350px;
     display: flex;
   }
