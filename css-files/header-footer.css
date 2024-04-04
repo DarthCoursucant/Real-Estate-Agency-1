@@ -77,7 +77,6 @@ html, body {
   .page-footer {
     display: flex;
     font-size: 25px;
-    text-align: center;
     line-height: normal;
   }
 
@@ -87,10 +86,19 @@ html, body {
     font-size: 20px;
   }
 
-  .footer-about, .footer-work,.footer-services-1, .footer-services-2, .social-media {
-    margin-left: 70px;
-    margin-right: 70px;
-    padding-bottom: 10px;
+  #footer-info-box {
+    float: left;
   }
+
+  #footer-info-box h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  #footer-info-box p {
+    font-size: 17px;
+    text-align: center;
+  }
+
 
   /* END FOOTER*/
