@@ -90,7 +90,7 @@ html, body {
     float: left;
   }
 
-  #footer-info-box h1, #footer-about-box h1, #footer-work-box h1, #footer-services-box h1, #footer-contact-box h1 {
+  #footer-info-box h1, #footer-about-box h1, #footer-work-box h1, #footer-services-box h1 {
     font-size: 25px;
     text-align: center;
   }
