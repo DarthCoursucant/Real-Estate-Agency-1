@@ -95,8 +95,16 @@ html, body {
     text-align: center;
   }
 
-  #footer-about-box h1, #footer-about-box a, #footer-work-box h1, #footer-work-box a {
+  #footer-about-box h1 {
     width: 300px;
+  }
+
+  #footer-about-box a, #footer-work-box h1, #footer-work-box a {
+    width: 250px;
+  }
+
+  #footer-info-box h1, #footer-info-box a {
+    width: 250px;
   }
 
   #footer-services-box h1, #footer-services-box a {
@@ -104,7 +112,7 @@ html, body {
   }
 
   #footer-about-box a {
-    margin-left: 50px;
+    margin-left: 20px;
     text-align: center;
   }
 
@@ -114,12 +122,12 @@ html, body {
   }
 
   #footer-call-icon-box, #footer-social-media-box {
-    margin-top: 350px;
+    margin-top: 250px;
     display: flex;
   }
 
   #footer-about-box {
-    margin-left: -50px;
+    margin-left: 50px;
   }
 
   #footer-contact-box, #footer-work-box, #footer-services-box {
@@ -127,7 +135,7 @@ html, body {
   }
 
   #footer-call-icon-box {
-    margin-left: 30px;
+    margin-left: -220px;
   }
 
   #footer-call-icon-box p, #footer-mall-icon-box p {
@@ -145,8 +153,8 @@ html, body {
   }
 
   #footer-mall-icon-box {
-    margin-top: 420px;
-    margin-left: -140px;
+    margin-top: 310px;
+    margin-left: -150px;
     display: flex;
   }
 
