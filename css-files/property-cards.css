@@ -1,6 +1,6 @@
 .wrap { flex-wrap: wrap; }
 
-.estate-naples, .estate-rome, .estate-venice, .estate-florence, .flex-three-info-boxes, .estate-geneva, .estate-zurich, .estate-bern, .estate-lucerne {
+.estate-naples, .estate-rome, .estate-venice, .estate-florence, .flex-three-info-boxes, .estate-geneva, .estate-zurich, .estate-bern, .estate-lucerne, .estate-edinburgh {
     display: flex;
 }
 
@@ -97,7 +97,7 @@
     border: 1px solid #ffffff;
 }
 
-.estate-naples h2, .estate-rome h2, .estate-venice h2, .estate-florence h2, .estate-zurich h2, .estate-bern h2, .estate-lucerne h2 {
+.estate-naples h2, .estate-rome h2, .estate-venice h2, .estate-florence h2, .estate-zurich h2, .estate-bern h2, .estate-lucerne h2, .estate-edinburgh h2 {
   text-align: center;
   margin-left: 550px;
 }
@@ -209,7 +209,7 @@
   margin-top: 150px;
 }
 
-.properties-geneva-house-one, .property-zurich, .properties-bern-house, .lucerne-property {
+.properties-geneva-house-one, .property-zurich, .properties-bern-house, .lucerne-property, .properties-edinburgh {
   margin-top: 20px;
   margin-left: 30px;
 }
@@ -219,10 +219,10 @@
   margin-left: 40px;
 }
 
-.zurich-proerpties, .property-bern, .propety-lucerne {
+.zurich-proerpties, .property-bern, .propety-lucerne, .property-edinburgh {
   margin-left: 30px;
 }
 
-.properties-zurich, .properties-bern, .properties-lucerne {
+.properties-zurich, .properties-bern, .properties-lucerne, .edinburgh-property {
   margin-left: 40px;
 }
