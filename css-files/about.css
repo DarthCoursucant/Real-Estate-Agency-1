@@ -211,28 +211,52 @@
 }
 
 #FAQ {
+    color: #151E22;
     margin-top: 150px;
+    background-image: url(/photos/squiggly-blue.png);
+    padding: 25px;
+    padding-left: 50px;
 }
 
 #faq-questions {
     margin-bottom: 75px;
 }
 
-details {
+.buying, .renting, .selling {
     padding: 5px;
     margin-right: 10%;
 
-    p {
+    .questions {
+        margin-top: 10px;
         margin-left: 5%;
-        background-color: #cad0d2;
-        padding: 5px;
-        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        #light {
+            background-color: #E8EAEA;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
+        #dark {
+            background-color: #cad0d2;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
     }
-}
 
-summary {
-}
+    .buying2 {
 
-details[open] {
-    transition: 0.2s;
+        p {
+            margin-left: 5%;
+        }
+    }
+
+    details[open] {
+        transition: 0.2s;
+    }
 }
