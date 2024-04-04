@@ -35,6 +35,10 @@
     }
 }
 
+#aboutus-textbox {
+    margin-right: 0px;
+}
+
 /* The textbox is the same for each element */
 .textbox {
     margin-left: 10%;
@@ -74,6 +78,7 @@
 
     .aboutus-picture {
         width: 100%;
+        margin-right: 10%;
         img {
             border-radius: 5px;
             height: 550px;
@@ -154,22 +159,29 @@
 }
 
 .background {
+    background-color: #A4AAAC;
     width: 100%;
     height: 100%;
+    h2 {
+        padding-top: 50px;
+        color: #151E22;
+    }
 
     p {
         margin-bottom: 0px;
+        color: #151E22;
     }
     
     .background-picture {
         display: flex;
         margin-left: 10%;
-        margin-right: 10%;
+        margin-right: 5%;
         gap: 5%;
         align-items: center;
         justify-content: flex-start;
         width: 100%;
         margin-top: 0px;
+        padding-bottom: 50px;
         img {
             border-radius: 5px;
             object-fit: cover;
