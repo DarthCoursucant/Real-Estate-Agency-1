@@ -90,13 +90,17 @@ html, body {
     float: left;
   }
 
-  #footer-info-box h1, #footer-about-box h1, #footer-work-box h1 {
+  #footer-info-box h1, #footer-about-box h1, #footer-work-box h1, #footer-services-box h1, #footer-contact-box h1 {
     font-size: 25px;
     text-align: center;
   }
 
   #footer-about-box h1, #footer-about-box a, #footer-work-box h1, #footer-work-box a {
     width: 300px;
+  }
+
+  #footer-services-box h1, #footer-services-box a {
+    width: 150px;
   }
 
   #footer-about-box a {
@@ -118,6 +122,9 @@ html, body {
     margin-left: -400px;
   }
 
+  #footer-contact-box {
+    margin-left: 100px;
+  }
 
 
   /* END FOOTER*/
