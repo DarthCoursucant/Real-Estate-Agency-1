@@ -216,6 +216,12 @@
     background-image: url(/photos/squiggly-blue.png);
     padding: 25px;
     padding-left: 50px;
+
+    span {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 #faq-questions {
@@ -249,10 +255,14 @@
         }
     }
 
-    .buying2 {
+    .buying2, .renting2, .selling2 {
 
         p {
             margin-left: 5%;
+        }
+
+        .answer {
+            margin-right: 5%;
         }
     }
 
