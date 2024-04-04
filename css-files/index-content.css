@@ -170,6 +170,7 @@ body {
 
   width: 330px;
   height: 375px;
+  position: relative;
 
   .property-next-button {
     opacity: 100%;
@@ -477,9 +478,19 @@ body {
 
 /* Make it responsive to smaller size screen*/
 
-@media (max-width: 1200px) {
+@media (max-width: 1760px) {
   .properties {
+    padding-top: 35px;
+    padding-bottom: 35px;
     overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  #last-property-all {
+    .property-next-button {
+      margin-top: 145px;
+      margin-left: 150px;
+    }
   }
 }
 
