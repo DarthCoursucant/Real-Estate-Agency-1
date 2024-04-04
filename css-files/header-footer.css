@@ -113,18 +113,41 @@ html, body {
     text-align: center;
   }
 
-  #footer-call-icon-box, #footer-mall-icon-box, #footer-social-media-box {
+  #footer-call-icon-box, #footer-social-media-box {
     margin-top: 350px;
     display: flex;
   }
 
   #footer-about-box {
-    margin-left: -400px;
+    margin-left: -350px;
   }
 
-  #footer-contact-box {
+  #footer-contact-box, #footer-work-box, #footer-services-box {
     margin-left: 100px;
   }
 
+  #footer-call-icon-box {
+    margin-left: 30px;
+  }
+
+  #footer-call-icon-box p, #footer-mall-icon-box p {
+    font-size: 20px;
+    width: 100px;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+
+  #footer-call-icon-box img, #footer-mall-icon-box img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  #footer-mall-icon-box {
+    margin-top: 400px;
+    margin-left: 100px;
+    display: flex;
+  }
 
   /* END FOOTER*/
