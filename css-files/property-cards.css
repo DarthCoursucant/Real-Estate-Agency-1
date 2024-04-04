@@ -127,7 +127,7 @@
   margin-left: 40px;
 }
 
-.properties-container-naples-house-five, .properties-container-rome-house-three, .properties-container-venice-last, .properties-container-florence-last, .properties-geneva-house-last, .properties-zurich-last, .properties-bern-last, .lucerne-last-house {
+.properties-container-naples-house-five, .properties-container-rome-house-three, .properties-container-venice-last, .properties-container-florence-last, .properties-geneva-house-last, .properties-zurich-last, .properties-bern-last, .lucerne-last-house, .edinburgh-last {
   margin-top: 30px;
   margin-left: 365px;
 }
@@ -137,7 +137,7 @@
   margin-left: 30px;
 }
 
-.properties-container-venice, .properties-container-florence {
+.properties-container-venice, .properties-container-florence, .edinburgh-house {
   margin-top: 20px;
   margin-left: 40px;
 }
