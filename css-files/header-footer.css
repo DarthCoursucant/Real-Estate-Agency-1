@@ -119,7 +119,7 @@ html, body {
   }
 
   #footer-about-box {
-    margin-left: -350px;
+    margin-left: -50px;
   }
 
   #footer-contact-box, #footer-work-box, #footer-services-box {
@@ -146,7 +146,7 @@ html, body {
 
   #footer-mall-icon-box {
     margin-top: 420px;
-    margin-left: -80px;
+    margin-left: -140px;
     display: flex;
   }
 
