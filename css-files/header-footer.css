@@ -121,13 +121,13 @@ html, body {
     text-align: center;
   }
 
-  #footer-call-icon-box, #footer-social-media-box {
+  #footer-social-media-box {
     margin-top: 250px;
     display: flex;
   }
 
   #footer-about-box {
-    margin-left: 50px;
+    margin-left: 90px;
   }
 
   #footer-contact-box, #footer-work-box, #footer-services-box {
@@ -136,6 +136,8 @@ html, body {
 
   #footer-call-icon-box {
     margin-left: -220px;
+    margin-top: 270px;
+    display: flex;
   }
 
   #footer-call-icon-box p, #footer-mall-icon-box p {
@@ -153,7 +155,7 @@ html, body {
   }
 
   #footer-mall-icon-box {
-    margin-top: 310px;
+    margin-top: 320px;
     margin-left: -150px;
     display: flex;
   }
