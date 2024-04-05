@@ -1,0 +1,320 @@
+.content {
+    overflow-x: hidden;
+}
+
+section {
+    padding-top: 50px;
+}
+
+#faq-sec {
+    margin-bottom: 150px;
+}
+
+.toppicture {
+    top: 0px;
+    position: relative;
+
+    h1 {
+        line-height: 65px;
+        text-align: center;
+        margin-left: 10%;
+        margin-right: 10%;
+        position: absolute;
+        background-color: #203036;
+        top: 55%;
+        font-size: 80px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 5px;
+        color: white;
+        span {
+            font-weight: normal;
+            font-size: 50px;
+            opacity: 75%;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+    }
+}
+
+#aboutus-textbox {
+    margin-right: 0px;
+}
+
+/* The textbox is the same for each element */
+.textbox {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #203036;
+    margin-bottom: 25px;
+    h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    p {
+        font-size: 27px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 33px;
+    }
+    h4 {
+        font-size: 30px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.aboutus {
+    display: flex;
+    margin-top: 75px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 2.5%;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0px;
+
+    .aboutus-picture {
+        width: 100%;
+        margin-right: 10%;
+        img {
+            border-radius: 5px;
+            height: 550px;
+            width: 400px;
+            object-fit: contain;
+        }
+    }
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 2.5%;
+    height: 100%;
+    width: 100%;
+
+    .mission-buildhousehere {
+        margin-left: 10%;
+        margin-right: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mission-picture {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        padding-top: 0px;
+        background-color: #556165;
+
+        .pictures {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.8%;
+            width: 100%;
+            height: 460px;
+
+            img {
+                object-fit: cover;
+                width: 500px;
+                height: 400px;
+                border-radius: 5px;
+                box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+                &:hover {
+                  transform: scale(1.1);
+                }
+            }
+            #firstpicture {
+            }
+            #lastpicture {
+                padding-right: 190px;
+            }
+        }
+    }
+
+
+    /*
+    .mission-picture {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        img {
+            border-radius: 5px;
+            height: 700px;
+            width: 350px;
+            object-fit: cover;
+        }
+    }
+    */
+}
+
+.background {
+    background-color: #A4AAAC;
+    width: 100%;
+    height: 100%;
+    h2 {
+        padding-top: 50px;
+        color: #151E22;
+    }
+
+    p {
+        margin-bottom: 0px;
+        color: #151E22;
+    }
+    
+    .background-picture {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 5%;
+        gap: 5%;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 0px;
+        padding-bottom: 50px;
+        img {
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        #image1 {
+            height: 450px;
+            width: 900px;
+        }
+        #image2 {
+            width: 300px;
+            height: 450px;
+        }
+    }
+}
+
+#background-textbox {
+    margin-right: 15%;
+    margin-top: 100px;
+    color: #203036;
+}
+
+#becomemember {
+    margin-top: 100px;
+}
+
+#FAQ {
+    color: #151E22;
+    margin-top: 150px;
+    background-image: url(/photos/squiggly-blue.png);
+    padding: 25px;
+    padding-left: 50px;
+    border-radius: 5px;
+    background-size: cover;
+
+    span {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#faq-questions {
+    margin-bottom: 75px;
+}
+
+.buying, .renting, .selling {
+    padding: 5px;
+    margin-right: 10%;
+
+    .questions {
+        margin-top: 10px;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        #light {
+            background-color: #E8EAEA;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
+        #dark {
+            background-color: #cad0d2;
+            padding-left: 5px;
+            padding-top: 5px;
+            padding-bottom: 10px;
+            border-radius: 5px;
+        }
+    }
+
+    .buying2, .renting2, .selling2 {
+
+        summary {
+            font-size: 27px;
+        }
+
+        p {
+            margin-left: 5%;
+        }
+
+        .answer {
+            margin-right: 5%;
+        }
+    }
+
+    details[open] {
+        transition: 0.2s;
+    }
+}
+
+@media (max-width: 1445px) {
+   
+#aboutus-textbox {
+    margin-right: 0px;
+}
+
+/* The textbox is the same for each element */
+.textbox {
+    margin-left: 8%;
+    margin-right: 5.%;
+}
+
+.background {
+    .background-picture {
+        margin-left: 8%;
+        margin-right: 5%;
+        gap: 2.5%;
+        #image1 {
+            height: 425px;
+            width: 750px;
+        }
+        #image2 {
+            width: 300px;
+            height: 425px;
+        }
+    }
+}
+
+#background-textbox {
+    margin-right: 12%;
+}
+
+}
