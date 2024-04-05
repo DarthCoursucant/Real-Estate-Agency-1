@@ -284,3 +284,37 @@ section {
         transition: 0.2s;
     }
 }
+
+@media (max-width: 1445px) {
+   
+#aboutus-textbox {
+    margin-right: 0px;
+}
+
+/* The textbox is the same for each element */
+.textbox {
+    margin-left: 8%;
+    margin-right: 5.%;
+}
+
+.background {
+    .background-picture {
+        margin-left: 8%;
+        margin-right: 5%;
+        gap: 2.5%;
+        #image1 {
+            height: 425px;
+            width: 750px;
+        }
+        #image2 {
+            width: 300px;
+            height: 425px;
+        }
+    }
+}
+
+#background-textbox {
+    margin-right: 12%;
+}
+
+}
