@@ -267,6 +267,10 @@ section {
 
     .buying2, .renting2, .selling2 {
 
+        summary {
+            font-size: 27px;
+        }
+
         p {
             margin-left: 5%;
         }
