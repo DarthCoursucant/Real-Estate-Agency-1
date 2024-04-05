@@ -1,6 +1,6 @@
 .wrap { flex-wrap: wrap; }
 
-.estate-naples, .estate-rome, .estate-venice, .estate-florence, .flex-three-info-boxes, .estate-geneva, .estate-zurich, .estate-bern, .estate-lucerne, .estate-edinburgh, .estate-glasgow, .estate-warsaw {
+.estate-naples, .estate-rome, .estate-venice, .estate-florence, .flex-three-info-boxes, .estate-geneva, .estate-zurich, .estate-bern, .estate-lucerne, .estate-edinburgh, .estate-glasgow, .estate-warsaw, .estate-wroclaw, .estate-gdansk, .estate-krakow, .estate-copenhagen, .estate-bucharest, .estate-amsterdam, .estate-rotterdam, .estate-oslo {
     display: flex;
 }
 
@@ -97,7 +97,7 @@
     border: 1px solid #ffffff;
 }
 
-.estate-naples h2, .estate-rome h2, .estate-venice h2, .estate-florence h2, .estate-zurich h2, .estate-bern h2, .estate-lucerne h2, .estate-edinburgh h2, .estate-glasgow h2, .estate-warsaw h2 {
+.estate-naples h2, .estate-rome h2, .estate-venice h2, .estate-florence h2, .estate-zurich h2, .estate-bern h2, .estate-lucerne h2, .estate-edinburgh h2, .estate-glasgow h2, .estate-warsaw h2, .estate-wroclaw h2, .estate-gdansk h2, .estate-krakow h2, .estate-copenhagen h2, .estate-bucharest h2, .estate-amsterdam h2, .estate-rotterdam h2, .estate-oslo h2 {
   text-align: center;
   margin-left: 550px;
 }
@@ -127,7 +127,7 @@
   margin-left: 40px;
 }
 
-.properties-container-naples-house-five, .properties-container-rome-house-three, .properties-container-venice-last, .properties-container-florence-last, .properties-geneva-house-last, .properties-zurich-last, .properties-bern-last, .lucerne-last-house, .edinburgh-last, .property-glasgow-last, .property-warsaw-last {
+.properties-container-naples-house-five, .properties-container-rome-house-three, .properties-container-venice-last, .properties-container-florence-last, .properties-geneva-house-last, .properties-zurich-last, .properties-bern-last, .lucerne-last-house, .edinburgh-last, .property-glasgow-last, .property-warsaw-last, .property-wroclaw-last, .property-gdansk-last, .property-krakow-last, .property-copenhagen-last, .property-bucharest-last, .property-amsterdam-last, .property-rotterdam-last {
   margin-top: 30px;
   margin-left: 365px;
 }
@@ -209,20 +209,20 @@
   margin-top: 150px;
 }
 
-.properties-geneva-house-one, .property-zurich, .properties-bern-house, .lucerne-property, .properties-edinburgh, .property-glasgow-house, .property-warsaw-house-one {
+.properties-geneva-house-one, .property-zurich, .properties-bern-house, .lucerne-property, .properties-edinburgh, .property-glasgow-house, .property-warsaw-house-one, .property-wroclaw-house-one, .property-gdansk-house-one, .property-krakow-house-one, .property-copenhagen-house-one, .property-bucharest-house-one, .property-amsterdam-house-one, .property-rotterdam-house-one {
   margin-top: 20px;
   margin-left: 30px;
 }
 
-.properties-geneva-house-two, .properties-zurich-house, .properties-bern-house-one, .lucerne-properties, .property-glasgow-house-one, .property-warsaw-house-two {
+.properties-geneva-house-two, .properties-zurich-house, .properties-bern-house-one, .lucerne-properties, .property-glasgow-house-one, .property-warsaw-house-two, .property-wroclaw-house-two, .property-gdansk-house-two, .property-krakow-house-two, .property-copenhagen-house-two, .property-bucharest-house-two, .property-amsterdan-house-two, .property-rotterdam-house-two {
   margin-top: 20px;
   margin-left: 40px;
 }
 
-.zurich-proerpties, .property-bern, .propety-lucerne, .property-edinburgh, .property-glasglow, .property-warsaw {
+.zurich-proerpties, .property-bern, .propety-lucerne, .property-edinburgh, .property-glasglow, .property-warsaw, .property-wroclaw, .property-gdansk, .property-krakow, .property-copenhagen, .property-bucharest, .property-amsterdam, .property-rotterdam, .property-oslo {
   margin-left: 30px;
 }
 
-.properties-zurich, .properties-bern, .properties-lucerne, .edinburgh-property, .properties-glasgow, .property-warsaw-house {
+.properties-zurich, .properties-bern, .properties-lucerne, .edinburgh-property, .properties-glasgow, .property-warsaw-house, .property-wroclaw-house, .property-gdansk-house, .property-krakow-house, .property-copenhagen-house, .property-bucharest-house, .property-amsterdam-house, .property-rotterdam-house, .property-oslo-house {
   margin-left: 40px;
 }
