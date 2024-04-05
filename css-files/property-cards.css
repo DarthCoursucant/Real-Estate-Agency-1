@@ -1,6 +1,6 @@
 .wrap { flex-wrap: wrap; }
 
-.estate-naples, .estate-rome, .estate-venice, .estate-florence, .flex-three-info-boxes, .estate-geneva, .estate-zurich, .estate-bern, .estate-lucerne, .estate-edinburgh, .estate-glasgow, .estate-warsaw, .estate-wroclaw, .estate-gdansk {
+.estate-naples, .estate-rome, .estate-venice, .estate-florence, .flex-three-info-boxes, .estate-geneva, .estate-zurich, .estate-bern, .estate-lucerne, .estate-edinburgh, .estate-glasgow, .estate-warsaw, .estate-wroclaw, .estate-gdansk, .estate-krakow {
     display: flex;
 }
 
@@ -97,7 +97,7 @@
     border: 1px solid #ffffff;
 }
 
-.estate-naples h2, .estate-rome h2, .estate-venice h2, .estate-florence h2, .estate-zurich h2, .estate-bern h2, .estate-lucerne h2, .estate-edinburgh h2, .estate-glasgow h2, .estate-warsaw h2, .estate-wroclaw h2, .estate-gdansk h2 {
+.estate-naples h2, .estate-rome h2, .estate-venice h2, .estate-florence h2, .estate-zurich h2, .estate-bern h2, .estate-lucerne h2, .estate-edinburgh h2, .estate-glasgow h2, .estate-warsaw h2, .estate-wroclaw h2, .estate-gdansk h2, .estate-krakow h2 {
   text-align: center;
   margin-left: 550px;
 }
@@ -219,7 +219,7 @@
   margin-left: 40px;
 }
 
-.zurich-proerpties, .property-bern, .propety-lucerne, .property-edinburgh, .property-glasglow, .property-warsaw, .property-wroclaw, .property-gdansk {
+.zurich-proerpties, .property-bern, .propety-lucerne, .property-edinburgh, .property-glasglow, .property-warsaw, .property-wroclaw, .property-gdansk, .property-krakow {
   margin-left: 30px;
 }
 
