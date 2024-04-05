@@ -127,7 +127,7 @@
   margin-left: 40px;
 }
 
-.properties-container-naples-house-five, .properties-container-rome-house-three, .properties-container-venice-last, .properties-container-florence-last, .properties-geneva-house-last, .properties-zurich-last, .properties-bern-last, .lucerne-last-house, .edinburgh-last, .property-glasgow-last, .property-warsaw-last, .property-wroclaw-last {
+.properties-container-naples-house-five, .properties-container-rome-house-three, .properties-container-venice-last, .properties-container-florence-last, .properties-geneva-house-last, .properties-zurich-last, .properties-bern-last, .lucerne-last-house, .edinburgh-last, .property-glasgow-last, .property-warsaw-last, .property-wroclaw-last, .property-gdansk-last {
   margin-top: 30px;
   margin-left: 365px;
 }
@@ -209,12 +209,12 @@
   margin-top: 150px;
 }
 
-.properties-geneva-house-one, .property-zurich, .properties-bern-house, .lucerne-property, .properties-edinburgh, .property-glasgow-house, .property-warsaw-house-one, .property-wroclaw-house-one {
+.properties-geneva-house-one, .property-zurich, .properties-bern-house, .lucerne-property, .properties-edinburgh, .property-glasgow-house, .property-warsaw-house-one, .property-wroclaw-house-one, .property-gdansk-house-one {
   margin-top: 20px;
   margin-left: 30px;
 }
 
-.properties-geneva-house-two, .properties-zurich-house, .properties-bern-house-one, .lucerne-properties, .property-glasgow-house-one, .property-warsaw-house-two, .property-wroclaw-house-two {
+.properties-geneva-house-two, .properties-zurich-house, .properties-bern-house-one, .lucerne-properties, .property-glasgow-house-one, .property-warsaw-house-two, .property-wroclaw-house-two, .property-gdansk-house-two {
   margin-top: 20px;
   margin-left: 40px;
 }
