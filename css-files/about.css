@@ -169,6 +169,10 @@ section {
     */
 }
 
+#mission-textbox {
+    margin-right: 15%;
+}
+
 .background {
     background-color: #A4AAAC;
     width: 100%;
