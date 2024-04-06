@@ -89,6 +89,11 @@ body {
     }
 }
 
+.property-description {
+    max-width: 1200px;
+    margin-right: 15%;
+}
+
 .property-looks {
     max-width: 875px;
     max-height: 750px;
@@ -122,6 +127,7 @@ body {
             font-size: 25px;
             padding: 12.7px;
             opacity: 100%;
+            transition: 0.2s;
         }
     }
     .next {
@@ -148,6 +154,7 @@ body {
             font-weight: bold;
         }
     }
+
 }
 
 .photo-number {
@@ -160,11 +167,9 @@ body {
     border-radius: 0px 0px 999px 0px;
 }
 
-
 .submit-button {
     display: flex;
     width: 175px;
-    padding-top: 50px;
      a{
         color: white;
         background-color: #203036;
@@ -173,5 +178,66 @@ body {
         padding-top: 5px;
         padding-bottom: 5px;
         border-radius: 99999px;
+        &:hover {
+            transform: scale(1.2);
+            transition: 0.25s;
+            background-color: green;
+        }
+    }
+}
+
+.property-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.property-owner {
+    margin-top: 85px;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: flex-start;
+    background-color: #556165;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    text-align: center;
+    height: 450px;
+
+    img {
+        border-radius: 5px 5px 0px 0px;
+        width: 250px;
+        height: 250px;
+        margin-top: 0px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    span {
+        font-size: 16px;
+        padding: 5px;
+        margin-bottom: 0px;
+        background-color: white;
+        color: #203036;
+        font-weight: bold;
+        border-radius: 5px 5px 0px 0px;
+        box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    h4 {
+        margin-top: 15px;
+        font-size: 35px;
+        margin-bottom: 0px;
+    }
+    p {
+        font-size: 20px;
+        margin-top: 0px;
+        font-style: italic;
+        margin-bottom: 0px;
+    }
+
+    .stars {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 27px
     }
 }

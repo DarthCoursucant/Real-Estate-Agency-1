@@ -145,28 +145,15 @@ section {
                   transform: scale(1.1);
                 }
             }
-            #firstpicture {
-            }
             #lastpicture {
                 padding-right: 190px;
             }
         }
     }
+}
 
-
-    /*
-    .mission-picture {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        img {
-            border-radius: 5px;
-            height: 700px;
-            width: 350px;
-            object-fit: cover;
-        }
-    }
-    */
+#mission-textbox {
+    margin-right: 15%;
 }
 
 .background {
