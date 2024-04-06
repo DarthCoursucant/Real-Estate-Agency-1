@@ -481,6 +481,8 @@ body {
         border-radius: 999px;
         width: 160px;
         padding: 5px 10px 5px 10px;
+        display: flex;
+        justify-content: center;
         &:hover {
             transform: scale(1.2);
             transition: 0.25s;
@@ -489,7 +491,6 @@ body {
     }
 
     .submit-button2 a{
-        padding: 10px 20px 10px 20px;
         color: white;
         font-size: 25px;
     }
@@ -805,4 +806,35 @@ body {
         }
     }
 
+}
+
+@media (max-width: 500px) {
+    .page-body2 {
+
+        .property-owner {
+            display: none;
+        }
+
+        .submit2 {
+            margin-right: 5%;
+        }
+    
+        .submit-button2 {
+            margin-top: 25px;
+            background-color: #203036;
+            border-radius: 999px;
+            width: 100px;
+            padding: 5px;
+            &:hover {
+                transform: scale(1.2);
+                transition: 0.25s;
+                background-color: green;
+            }
+        }
+    
+        .submit-button2 a{
+            color: white;
+            font-size: 20px;
+        } 
+    }
 }
