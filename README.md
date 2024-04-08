@@ -2,7 +2,8 @@
 by Amelia, Weronika and Toby :)
 
 WEREONIKA DOES =
-About Page
+Fixes the already done pages by me.
++ can do the Our Team Page and redo the Account page
 
 AKB DOES = 
 Buy Page
@@ -11,7 +12,7 @@ TOBY DOES =
 ?????
 
 What Needs To Be Done
-About Page, Book A Tour Page, FAQ Page, Our Mision, History Mission, Our Team Page, Carer Page, Future Vision Page, Build Page
+Book A Tour Page, Our Team Page, Carer Page, Build Page
 
 SOMETHINGS NEEDS TO BE CHANGED ?
 - something more on the account page ?
