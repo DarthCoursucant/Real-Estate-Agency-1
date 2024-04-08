@@ -1,5 +1,5 @@
 # Real-Estate-Agency-1
-by Amelia, Weronika and Toby :)
+by Amelia, Weronika and (Toby?) :)
 
 WEREONIKA DOES =
 Fixes the already done pages by me.
@@ -16,3 +16,4 @@ Book A Tour Page, Our Team Page, Carer Page, Build Page
 
 SOMETHINGS NEEDS TO BE CHANGED ?
 - something more on the account page ?
+
