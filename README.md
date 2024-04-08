@@ -1,7 +1,7 @@
 # Real-Estate-Agency-1
 by Amelia, Weronika and (Toby?) :)
 
-WEREONIKA DOES =
+WV DOES =
 
 Fixes the already done pages by me.
 + can do the Our Team Page and redo the Account page
