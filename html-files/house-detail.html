@@ -42,6 +42,10 @@
     
     <main class="page-body">
     
+        <div class="gobackbutton">
+            <button onclick="history.back()"><i class="fa-solid fa-arrow-left"></i> Go Back</button>
+        </div>
+
         <div class="content">
 
             <div class="content-looks-info">
@@ -194,6 +198,10 @@
 
     <main class="page-body2">
     
+        <div class="gobackbutton">
+            <button onclick="history.back()"><i class="fa-solid fa-arrow-left"></i> Go Back</button>
+        </div>
+
         <div class="content">
 
             <div class="content-looks-info">
@@ -201,67 +209,99 @@
                 <div class="property-looks">
 
                     <div class="slides2">
-                        <div class="photo-number">1 / 5</div>
-                        <img src="/photos/ap1.webp" alt="">
+                        <div class="photo-number">1 / 9</div>
+                        <img src="/photos/radahn/exterior.jpg" alt="">
+                        <div class="photo-room2">
+                            <p>Exterior</p>
+                        </div>
+                    </div>
+
+                    <div class="slides2">
+                        <div class="photo-number">2 / 9</div>
+                        <img src="/photos/radahn/hallway.jpg" alt="">
+                        <div class="photo-room2">
+                            <p>Hallway</p>
+                        </div>
+                    </div>
+
+                    <div class="slides2">
+                        <div class="photo-number">3 / 9</div>
+                        <img src="/photos/radahn/livingroom.webp" alt="">
                         <div class="photo-room2">
                             <p>Living Room</p>
                         </div>
                     </div>
 
                     <div class="slides2">
-                        <div class="photo-number">2 / 5</div>
-                        <img src="/photos/bedroom2.jpg" alt="">
-                        <div class="photo-room2">
-                            <p>Bedroom</p>
-                        </div>
-                    </div>
-
-                    <div class="slides2">
-                        <div class="photo-number">3 / 5</div>
-                        <img src="/photos/bathroom.jpg" alt="">
-                        <div class="photo-room2">
-                            <p>Bathroom</p>
-                        </div>
-                    </div>
-
-                    <div class="slides2">
-                        <div class="photo-number">4 / 5</div>
-                        <img src="/photos/kitchn2.webp" alt="">
+                        <div class="photo-number">4 / 9</div>
+                        <img src="/photos/radahn/kitchen.jpg" alt="">
                         <div class="photo-room2">
                             <p>Kitchen</p>
                         </div>
                     </div>
 
                     <div class="slides2">
-                        <div class="photo-number">5 / 5</div>
-                        <img src="/photos/balcony.jpg" alt="">
+                        <div class="photo-number">5 / 9</div>
+                        <img src="/photos/radahn/bedroom1.jpg" alt="">
                         <div class="photo-room2">
-                            <p>Balcony</p>
+                            <p>Master Bedroom</p>
                         </div>
                     </div>
 
-                    <a class="prev2" onclick="plusSlides2(-1)"><i class="fa-solid fa-arrow-left"></i></a>
-                    <a class="next2" onclick="plusSlides2(1)"><i class="fa-solid fa-arrow-right"></i></a>
+                    <div class="slides2">
+                        <div class="photo-number">7 / 9</div>
+                        <img src="/photos/radahn/bathroom1.jpg" alt="">
+                        <div class="photo-room2">
+                            <p>Master Bathroom</p>
+                        </div>
+                    </div>
+
+                    <div class="slides2">
+                        <div class="photo-number">6 / 9</div>
+                        <img src="/photos/radahn/bedroom2.jpg" alt="">
+                        <div class="photo-room2">
+                            <p>Guest Bedroom</p>
+                        </div>
+                    </div>
+
+                    <div class="slides2">
+                        <div class="photo-number">8 / 9</div>
+                        <img src="/photos/radahn/bathroom2.jpg" alt="">
+                        <div class="photo-room2">
+                            <p>Guest Bathroom</p>
+                        </div>
+                    </div>
+
+                    <div class="slides2">
+                        <div class="photo-number">9 / 9</div>
+                        <img src="/photos/radahn/garden.jpg" alt="">
+                        <div class="photo-room2">
+                            <p>Sitting Area</p>
+                        </div>
+                    </div>
+
+                    <a class="prev2" onclick="plusSlides(-1)"><i class="fa-solid fa-arrow-left"></i></a>
+                    <a class="next2" onclick="plusSlides(1)"><i class="fa-solid fa-arrow-right"></i></a>
 
                 </div>
 
                 <div class="property-info">
-                    <h1>Hudsons Apartments</h1>
-                    <p>This property has 4 rooms in total, <br>That includes:</p>
+                    <h1>Radahns Modern Cottage</h1>
+                    <p>This property has 6 rooms in total, <br>That includes:</p>
                     <div class="property-rooms">
                         <div class="rooms">
-                            <h2>1 Bathroom</h2>
-                            <h2>1 Bedroom</h2>
+                            <h2>2 Bathroom</h2>
+                            <h2>2 Bedroom</h2>
                             <h2>1 Kitchen</h2>
                             <h2>1 Living Room</h2>
                             <h2>1 Balcony</h2>
                         </div>
                         <div class="squaremeters">
-                            <h3>= 48m2</h3>
+                            <h3>= 97m2</h3>
                         </div>
                     </div>
-                    <h3>Monthly Price</h3>
-                    <p>$ 1200</p>
+                    <h3>Total Price</h3>
+                    <p>$ 37 000</p>
                 </div>
             </div>
 
@@ -269,40 +309,42 @@
                 <div class="property-location">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4965.528411245755!2d-0.15778155807615565!3d51.51754179027588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761acdabd7f677%3A0xa3fa518b103821ce!2s22b%20Baker%20St%2C%20London%20W1U%203BW%2C%20UK!5e0!3m2!1sen!2sno!4v1712009877143!5m2!1sen!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-
+                
                 <div class="desc-contact">
                     <div class="property-description">
                         <h2>Property Description</h2>
-                        <p>Welcome to your urban oasis! This modern apartment boasts a sleek kitchen with stainless steel appliances and granite countertops, perfect for culinary endeavors. The inviting living room offers ample space for relaxation and entertainment, adorned with large windows flooding the space with natural light. A serene bedroom provides a peaceful retreat with plush carpeting and generous closet space. Step onto the private balcony for stunning city views, ideal for morning coffee or evening relaxation. The modern bathroom features luxurious fixtures and a spa-like atmosphere for ultimate comfort. With its prime location and upscale amenities, this apartment offers the epitome of urban living. Don't miss out on the opportunity to make it your own—schedule your viewing today!</p>
+                        <p>Upon entering, you'll immediately notice the striking exterior adorned with vibrant orange wood. What sets this apart is not just its aesthetic appeal but also its eco-friendliness. The wood used for both exterior and interior accents is made from recycled planks, underscoring the home's commitment to sustainability.</p>
+                        <p>Step inside to discover a meticulously designed interior where every detail exudes comfort and sophistication. The master bedroom and bathroom serve as a serene retreat, providing the perfect spot to unwind after a long day. With ample space and thoughtful touches, relaxation comes effortlessly here.</p>
+                        <p>In addition to the master suite, the house boasts a well-appointed guest bedroom and bathroom, ensuring that visitors feel welcomed and comfortable.</p>
+                        <p>But what truly sets this home apart is its eco-friendly features. From energy-efficient appliances to solar panels adorning the roof, this house is designed to minimize its environmental footprint without compromising on modern conveniences.</p>
+                        <p>For those who value both style and sustainability, this modern eco-friendly house is the perfect choice. Don't miss out on the opportunity to make this environmentally-conscious oasis your home.</p>
                         <p><strong>Published: 02.04.2024</strong></p>
                     </div>
         
                     <div class="contact">
-
-                        <div class="property-owner">
-                            <span>Property Owner</span>
-                            <img src="/photos/hudson-face.jpg" alt="">
-                            <h4>Ms Hudson</h4>
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p>Renter since 2010</p>
-                        </div>
         
-                        <div class="contact-submit">
-                            <div class="submit2">
-                                <p>Interested?</p>
-                                <h4>Schedule a Showing with us!</h4>
-                            </div>
-                            <div class="submit-button2">
-                                <a href="contact.html">Contact Us</a>
-                            </div>
+                        <div class="submit2">
+                            <p>Interested?</p>
+                            <h4>Schedule a Showing with us!</h4>
+                        </div>
+                        <div class="submit-button2">
+                            <a href="contact.html">Contact Us</a>
                         </div>
                     </div>
+                </div>
+
+                <div class="property-owner">
+                    <span>Real Estate Agent</span>
+                    <img src="/photos/agents/agent3.jpg" alt="">
+                    <h4>Fredrik Paul</h4>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Agent since 2010</p>
                 </div>
 
             </div>
