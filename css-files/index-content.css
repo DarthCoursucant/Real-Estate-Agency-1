@@ -675,16 +675,13 @@ body {
 }
 @media (max-width: 495px) {
   .meet-the-team {
-
     .team-mates {
-      height: 420px;
-  
+      height: 400px;
       .agent {
-        height: 400px;
+        height: 375px;
 
         .agent-textbox {
           width: 215px;
-
           h4 {
             font-size: 25px;
           }
@@ -707,8 +704,8 @@ body {
         }
   
         img {
-          height: 400px;
-          width: 200px;
+          height: 375px;
+          width: 175px;
         }
 
       }
