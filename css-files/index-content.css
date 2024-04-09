@@ -445,6 +445,7 @@ body {
 
   .team-mates {
     overflow-x: scroll;
+    overflow-y: hidden;
     display: flex;
     flex-direction: row;
     gap: 35px;
@@ -628,6 +629,126 @@ body {
 }
 
 
+
+/* RESPONSIVE */
+
+
+/* Newest Properties*/
+/* Title */
+@media (max-width: 560px) {
+
+  .properties-on-market {
+    margin-bottom: 75px;
+  
+    h2 {
+      font-size: 35px;
+      margin-bottom: 5px;
+    }
+    span {
+      font-size: 17px;
+    }
+  }
+
+}
+@media (max-width: 490px) {
+
+  .properties-on-market {
+    margin-bottom: 75px;
+  
+    h2 {
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+    span {
+      font-size: 15px;
+    }
+  }
+
+}
+@media (max-width: 420px) {
+
+  .properties-on-market {
+    margin-bottom: 75px;
+  
+    h2 {
+      font-size: 25px;
+      margin-bottom: 0px;
+    }
+    span {
+      font-size: 15px;
+    }
+  }
+
+}
+/* Properties */
+@media (max-width: 420px) {
+
+  .properties {
+    gap: 20px;
+    height: 450px;
+    
+    .property {
+      width: 300px;
+      height: 400px;
+  
+      img {
+        margin-top: -42px;
+        width: 300px;
+        height: 250px;
+      }
+  
+      .property-type {
+        width: 300px;
+  
+        p {
+          width: 150px;
+        }
+      }
+  
+    }
+  }
+  .see-more {
+    width: 300px;
+    height: 400px;
+  }
+
+}
+@media (max-width: 345px) {
+
+  .properties {
+    gap: 15px;
+    height: 450px;
+    
+    .property {
+      width: 275px;
+      height: 375px;
+  
+      img {
+        margin-top: -43px;
+        width: 275px;
+        height: 230px;
+      }
+  
+      .property-type {
+        width: 275px;
+  
+        p {
+          width: 150px;
+        }
+      }
+  
+    }
+  }
+  .see-more {
+    width: 275px;
+    height: 375px;
+  }
+
+}
+
+
+
+
 /* Learn More content */
 @media (max-width: 995px) {
 
@@ -799,6 +920,33 @@ body {
 
 }
 
+/* Rentals */
+/* Title */
+@media (max-width: 500px) {
+  .rentals-on-market {
+  
+    h2 {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+    span {
+      font-size: 17px;
+    }
+  }
+}
+@media (max-width: 385px) {
+  .rentals-on-market {
+  
+    h2 {
+      font-size: 25px;
+      margin-bottom: 0px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
 
 /* Meet the team */
 @media (max-width: 690px) {
@@ -877,6 +1025,61 @@ body {
         img {
           height: 375px;
           width: 175px;
+        }
+
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .meet-the-team {
+
+    h3{
+      font-size: 25px;
+    }
+    p {
+      font-size: 18px;
+    }
+
+    .team-mates {
+      height: 400px;
+      gap: 15px;
+      .agent {
+        height: 385px;
+        width: 215px;
+        flex-direction: column;
+
+        .agent-textbox {
+          width: 215px;
+          height: 200px;
+
+          h4 {
+            font-size: 20px;
+          }
+          p{
+            font-size: 18px;
+          }
+          .agent-location {
+            display: none;
+          }
+
+          .contact-info-agent {
+            margin-top: 15px;
+            .agent-phone, .agent-email {
+              
+              i {
+                font-size: 15px;
+              }
+              p{
+                font-size: 15px;
+              }
+            }
+          }
+        }
+  
+        img {
+          height: 150px;
+          width: 215px;
         }
 
       }
@@ -989,5 +1192,30 @@ body {
     }
   }
  }
+}
+@media (max-width: 310px) {
+  .newsletter {
+    .content-newsletter  {
+        .submit-email-newsletter  {
+  
+            .insert-email-newsletter  {
+                width: 200px;
+
+                input {
+                  border: solid 1px white;
+                  font-size: 10px;
+                }
+              }
+
+              .submit-button-newsletter  {
+                margin-top: 0px;
+                p {
+                    font-size: 12px;
+                    padding: 5px 10px 5px 10px;
+                }
+            }
+          }
+        }
+    }
 }
 
