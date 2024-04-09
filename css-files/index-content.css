@@ -460,7 +460,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 35px;
-    height: 550px;
+    height: 575px;
     align-items: center;
 
     .agent {
@@ -522,6 +522,30 @@ body {
       }
     }
   }
+}
+#first-agent {
+  margin-left: 50px;
+}
+.all-real-agents {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 20px;
+
+  .par-arrow {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  i {
+    font-size: 50px;
+  }
+}
+#last-agents {
+  margin-right: 50px;
 }
 
 
