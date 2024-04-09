@@ -13,7 +13,6 @@ body {
   margin-top: -1000;
   padding: 0px;
 }
-
 .top-picture-background {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.175)),
   url(/photos/houseonahand.jpeg);
@@ -160,7 +159,6 @@ body {
     font-size: 20px;
   }
 }
-
 .properties {
 
   display: flex;
@@ -244,20 +242,17 @@ body {
     }
   }
 }
-
 #last-property {
   position: relative;
 }
 #property-type-last {
   opacity: 25%;
 }
-
 .see-more-button {
   position: relative;
   text-decoration: none;
   color: white;
 }
-
 .see-more {
   position: absolute;
   display: flex;
@@ -274,8 +269,6 @@ body {
     margin-bottom: 100px;
   }
 }
-
-
 
 /* Learn More content */
 .info-content {
@@ -398,10 +391,6 @@ body {
   }
 }
 
-
-
-
-
 /* Rentals, share the same CSS as properties-on-market */
 .rentals-on-market {
   margin-left: 5%;
@@ -419,14 +408,12 @@ body {
     font-size: 20px;
   }
 }
-
 #rental {
 
   img {
     margin-top: 0px;
   }
 }
-
 #last-rental {
 
   img {
@@ -460,7 +447,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 35px;
-    height: 550px;
+    height: 575px;
     align-items: center;
 
     .agent {
@@ -523,8 +510,30 @@ body {
     }
   }
 }
+#first-agent {
+  margin-left: 50px;
+}
+.all-real-agents {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 20px;
 
+  .par-arrow {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
 
+  i {
+    font-size: 50px;
+  }
+}
+#last-agents {
+  margin-right: 50px;
+}
 
 /* Newsletter */
 .bottom-content {
@@ -535,7 +544,6 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
 .newsletter {
   .background-newsletter {
       position: relative;
@@ -618,4 +626,90 @@ body {
 }
 
 
+@media (max-width: 690px) {
+  .meet-the-team {
+
+    .team-mates {
+  
+      .agent {
+
+        .agent-textbox {
+          width: 215px;
+
+          h4 {
+            font-size: 25px;
+          }
+          p{
+            font-size: 20px;
+          }
+
+          .contact-info-agent {
+
+            .agent-phone, .agent-email {
+              
+              i {
+                font-size: 18px;
+              }
+              p{
+                font-size: 18px;
+              }
+            }
+          }
+        }
+  
+        img {
+          width: 200px;
+        }
+  
+      }
+    }
+  }
+
+  #first-agent {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 495px) {
+  .meet-the-team {
+
+    .team-mates {
+      height: 420px;
+  
+      .agent {
+        height: 400px;
+
+        .agent-textbox {
+          width: 215px;
+
+          h4 {
+            font-size: 25px;
+          }
+          p{
+            font-size: 20px;
+          }
+
+          .contact-info-agent {
+
+            .agent-phone, .agent-email {
+              
+              i {
+                font-size: 18px;
+              }
+              p{
+                font-size: 18px;
+              }
+            }
+          }
+        }
+  
+        img {
+          height: 400px;
+          width: 200px;
+        }
+
+      }
+    }
+  }
+}
 
