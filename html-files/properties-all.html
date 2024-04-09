@@ -3,7 +3,6 @@
 <head>
     <link type="text/css" rel="stylesheet" href="../css-files/header-footer.css">
     <link rel="stylesheet" href="../css-files\properties-all.css">
-    <link rel="stylesheet" href="../css-files/side-filters.css">
     <meta charset="UTF-8">
     <meta name="Rent Page Real Estate Agency" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="AKB">
@@ -39,421 +38,408 @@
     <!--Content-->
     <main class="page-body">
 
-        <div class="content">
+        <section class="side-filters">
 
-            <div class="top-filter-rent">
-
+            <div class="filter-content">
                 <div class="gobackbutton">
                     <button onclick="history.back()"><i class="fa-solid fa-arrow-left"></i> Go Back</button>
                 </div>
 
-                <h2>Property Type:</h2>
-                <div class="filters">
+                <p>You can personalize<br>your search here</p>
 
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Apartment
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> House
-                    </label>
+                <div class="filter-container">
 
-                </div>
+                    <h3>Published:</h3>
 
-                <h2>Published:</h2>
-                <div class="filters">
-
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Today
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> This Week
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> This Month
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> This Year
-                    </label>
-
-                </div>
-
-                <h2>Location:</h2>
-                <div class="filters">
-
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Bergen
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Oslo
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Trondheim
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Molde
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Stavanger
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Haugesund
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Bodø
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Drammen
-                    </label>
-                    <label class="filtercontainer">
-                        <input type="checkbox">
-                        <span class="checkmark"></span> Kristiansand
-                    </label>
-
-                </div>
-
-                <div class="budget-slider">
-                    <h2>Budget:</h2>
-                    <div class="budget-price">
-                        <span>Min:</span>
-                        <input type="number" class="input-min" value="500">
-                    </div> 
-                    <div class="budget-price">
-                        <span>Max:</span>
-                        <input type="number" class="input-max" value="1000">
-                    </div> 
-                </div>
-
-            </div>
-    
-            <div class="rent-properties-content">
-
-                <div class="properties-rent">
-
-                    <div class="rentals">
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap1.webp" alt="picture of a living room" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Hudsons Apartments</h2>
-                                    <p>22B Baker Street</p>
-                                    <p>4 Rooms</p>
-                                    <p><span>439 000$</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/house1.jpeg" alt="picture of the exterior of a house" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap2.jpg" alt="picture of the intiror of a house, living room, dinning room and view from the living room" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/house2.jpeg" alt="picture of the exterior of a house we recently constructed" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/house3.jpeg" alt="picture of the exterior of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/lasseap.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Lǎoshī</h2>
-                                    <p>Kvernhusrenen 3C</p>
-                                    <p>4 Rooms</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap5.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/naples-house-one.jpeg" alt="picture of the exterior of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/luxury-house.jpeg" alt="picture of the exteriro of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap10.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/ap6.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/house5.jpeg" alt="picture of the exterior of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap13.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/florence-house.jpeg" alt="picture of the exterior of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap14.webp" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap9.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property-house">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category-house">
-                                        <p>House</p>
-                                    </div>
-                                    <img src="/photos/venice-house-sell.jpeg" alt="picture of the exterior of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap11.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="property">
-                            <a href="property-detail.html">
-                                <div class="property-top">
-                                    <div class="category">
-                                        <p>Apartment</p>
-                                    </div>
-                                    <img src="/photos/ap12.jpg" alt="picture of the intiror of a house we have for sell" width="485px"height="350px;">
-                                </div>
-                                <div class="property-text">
-                                    <h2>Property Name</h2>
-                                    <p>Location</p>
-                                    <p>Rom Amount</p>
-                                    <p><span>Total Price</span></p>
-                                </div>
-                            </a>
-                        </div>
+                    <div class="filters">
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Today
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> This Week
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> This Month
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> This Year
+                        </label>
                     </div>
                 </div>
 
+                <div class="filter-container">
+
+                    <h3>Location:</h3>
+
+                    <div class="filters">
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Bergen
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Oslo
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Trondheim
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Molde
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Stavanger
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Haugesund
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Bodø
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Drammen
+                        </label>
+                        <label class="filtercontainer">
+                            <input type="checkbox">
+                            <span class="checkmark"></span> Kristiansand
+                        </label>
+                    </div>
+
+                <div class="budget">
+
+                    <h3>Budget:</h3>
+
+                    <div class="budget-slider">
+                        <div class="budget-price">
+                            <span class="minimum-price">Min:</span>
+                            <input type="number" class="input-min" value="500">
+                        </div> 
+                        <div class="budget-price">
+                            <span>Max:</span>
+                            <input type="number" class="input-max" value="5000">
+                        </div> 
+                    </div>
+                </div>
             </div>
 
-        </div>
+        </section>
+
+        <section class="properties-content">
+
+            <div class="properties">
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap1.webp" alt="picture of a living room">
+                    </div>
+                    <div class="info">
+                        <h2>Hudsons Apartments</h2>
+                        <p>221B Baker Street</p>
+                        <p>4 rooms</p>
+                        <p>1200 $</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property" id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/house1.jpeg" alt="picture of the exterior of a house">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap2.jpg" alt="picture of the intiror of a house, living room, dinning room and view from the living room">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property" id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/house2.jpeg" alt="picture of the exterior of a house we recently constructed">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property" id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/house3.jpeg" alt="picture of the exterior of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/lasseap.jpg" alt="picture of the intiror of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Lǎoshī</h2>
+                        <p>Kvernhusrenen 3C</p>
+                        <p>4 Rooms</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap5.jpg" alt="picture of the intiror of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property"id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/naples-house-one.jpeg" alt="picture of the exterior of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property"id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/luxury-house.jpeg" alt="picture of the exteriro of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap10.jpg" alt="picture of the interior of a Apartment we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property"id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap6.jpg" alt="picture of the interior of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property" id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/house5.jpeg" alt="picture of the exterior of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap13.jpg" alt="picture of the interior of a Apartment we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/florence-house.jpeg" alt="picture of the exterior of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap14.webp" alt="picture of the interior of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap13.jpg" alt="picture of interior of a apartment we have for rent">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap9.jpg" alt="picture of the interior of a Apartment we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property" id="house">
+                    <div class="type">
+                        <p>House</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/venice-house-sell.jpeg" alt="picture of the exterior of a house we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap11.jpg" alt="picture of the interior of a Apartment we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+                <a href="/html-files/rent-detail.html" class="property">
+                    <div class="type">
+                        <p>Apartment</p>
+                    </div>
+                    <div class="photo">
+                        <img src="/photos/ap12.jpg" alt="picture of the interior of a Apartment we have for sell">
+                    </div>
+                    <div class="info">
+                        <h2>Property Name</h2>
+                        <p>Location</p>
+                        <p>Room Amount</p>
+                        <p>Monthly Price</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
     
     </main>
 
