@@ -387,6 +387,7 @@ body {
       width: 570px;
       background-size: cover;
       border-radius: 5px;
+      object-fit: cover;
     }
   }
 }
@@ -627,6 +628,176 @@ body {
 }
 
 
+/* Learn More content */
+@media (max-width: 995px) {
+
+  .info-content {
+    margin-top: 75px;
+    margin-bottom: 50px;
+
+    .info-textbox {
+  
+      h3 {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      h4 {
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+  
+      .info-learnmore-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+  
+        #learn-more-button2 {
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-size: 20px;
+        }
+  
+        a {
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-size: 20px;
+        }
+  
+      }
+    }
+  
+    .info-picture {
+      height: 530px;
+      width: 470px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        height: 440px;
+        width: 400px;
+      }
+    }
+  }
+
+}
+@media (max-width: 795px) {
+
+  .info-content {
+    margin-top: 75px;
+    margin-bottom: 50px;
+
+    .info-content-eco {
+      height: 450px;
+    }
+  
+    .info-content-selling {
+      height: 450px;
+    }
+  
+    .info-content-buying {
+      height: 450px;
+    }
+  
+    .info-textbox {
+  
+      h3 {
+        font-size: 22px;
+      }
+      h4 {
+        font-size: 18px;
+      }
+  
+      .info-learnmore-button {
+  
+        #learn-more-button2 {
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-size: 15px;
+        }
+  
+        a {
+          padding: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-size: 15px;
+        }
+  
+      }
+    }
+  
+    .info-picture {
+      height: 450px;
+      width: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        height: 400px;
+        width: 300px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 650px) {
+
+  .info-content {
+    margin-top: 75px;
+    margin-bottom: 50px;
+
+    .info-content-eco {
+      height: 100%;
+    }
+  
+    .info-content-selling {
+      height: 100%;
+    }
+  
+    .info-content-buying {
+      height: 100%;
+    }
+  
+    #info-textbox2 {
+      margin-left: 5%;
+    }
+
+    .info-textbox {
+      height: 100%;
+      margin-left: 5%;
+
+      h3 {
+        font-size: 22px;
+      }
+      h4 {
+        font-size: 18px;
+      }
+  
+      .info-learnmore-button {
+  
+        #learn-more-button2 {
+          margin-bottom: 50px;
+        }
+  
+        a {
+          margin-bottom: 50px;
+        }
+  
+      }
+    }
+  
+    .info-picture {
+      display: none;
+    }
+  }
+
+}
 
 
 /* Meet the team */
