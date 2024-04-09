@@ -632,6 +632,239 @@ body {
 
 /* RESPONSIVE */
 
+/* Top Picture */
+@media (max-width: 1040px) {
+  .top-picture {
+    height: 500px;
+  }
+  .top-picture-background {  
+    .picture-content {  
+      .title-top-picture {
+        h3 {
+          font-size: 29.5px;
+        }
+        h2 {
+          font-size: 75px;
+        }
+      }
+  
+      .filters-top-picture {
+        margin-top: 250px;
+        width: 750px;
+        height: 55px;
+        gap: 2.5%;
+  
+        #last-filter {
+          margin-right: 15px;
+        }
+  
+        .result-top-picture {
+          padding: 7px;
+          margin-right: 2.5%;
+  
+          a {
+            font-size: 17px;
+          }
+        }
+  
+        .location-top-picture, .type-top-picture, .budget-top-picture {
+          gap: 10px;
+  
+          i {
+            font-size: 15px;
+          }
+  
+          .under-filter {  
+            p {
+              margin-bottom: 0px;
+              font-size: 18px;
+            }
+  
+            .span-top-picture {
+              opacity: 65%;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 805px) {
+  .top-picture {
+    height: 500px;
+  }
+  .top-picture-background {  
+    .picture-content {  
+      .title-top-picture {
+        h3 {
+          font-size: 29.5px;
+        }
+        h2 {
+          font-size: 75px;
+        }
+      }
+  
+      .filters-top-picture {
+        margin-top: 250px;
+        width: 650px;
+        height: 55px;
+        gap: 2.5%;
+  
+        #last-filter {
+          margin-right: 5px;
+        }
+  
+        .result-top-picture {
+          padding: 5px;
+          margin-right: 2.5%;
+          width: 75%;
+  
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 680px) {
+  .top-picture {
+    height: 400px;
+  }
+  .top-picture-background {  
+    .picture-content {  
+      .title-top-picture {
+        h3 {
+          font-size: 23.5px;
+        }
+        h2 {
+          font-size: 60px;
+        }
+      }
+      .filters-top-picture {
+        margin-top: 200px;
+        width: 550px;
+        height: 50px;
+        gap: 2.5%;
+  
+        #last-filter {
+          margin-right: 5px;
+        }
+
+        #location-icon {
+          padding-left: 2.5px;
+          padding-right: 2.5px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+  
+        .result-top-picture {
+          padding: 5px;
+          margin-right: 2.5%;
+          width: 75%;
+  
+          a {
+            font-size: 12px;
+          }
+        }
+        .location-top-picture, .type-top-picture, .budget-top-picture {
+  
+          i {
+            font-size: 15px;
+            padding: 7px;
+          }
+  
+          .under-filter {  
+            p {
+              margin-bottom: 0px;
+              font-size: 17px;
+            }
+  
+            .span-top-picture {
+              opacity: 65%;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 565px) {
+  .top-picture {
+    height: 300px;
+  }
+  .top-picture-background {  
+    .picture-content {  
+      .title-top-picture {
+        margin-left: 5%;
+        margin-right: 5%;
+        h3 {
+          font-size: 23.5px;
+        }
+        h2 {
+          font-size: 60px;
+        }
+      }
+      .filters-top-picture {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 565px) {
+  .top-picture {
+    height: 250px;
+  }
+  .top-picture-background {  
+    .picture-content {  
+      .title-top-picture {
+        margin-left: 5%;
+        margin-right: 5%;
+        h3 {
+          font-size: 19.5px;
+        }
+        h2 {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 405px) {
+  .top-picture-background {  
+    .picture-content {  
+      .title-top-picture {
+        margin-left: 5%;
+        margin-right: 5%;
+        h3 {
+          font-size: 15.5px;
+        }
+        h2 {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 325px) {
+  .top-picture-background {  
+    .picture-content {  
+      .title-top-picture {
+        margin-left: 5%;
+        margin-right: 5%;
+        h3 {
+          font-size: 13.5px;
+        }
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
 
 /* Newest Properties*/
 /* Title */
@@ -745,9 +978,6 @@ body {
   }
 
 }
-
-
-
 
 /* Learn More content */
 @media (max-width: 995px) {
@@ -947,7 +1177,6 @@ body {
   }
 }
 
-
 /* Meet the team */
 @media (max-width: 690px) {
   .meet-the-team {
@@ -1086,7 +1315,6 @@ body {
     }
   }
 }
-
 
 /* Newsletter */
 @media (max-width: 795px) {
