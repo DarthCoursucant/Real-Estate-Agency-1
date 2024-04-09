@@ -404,6 +404,42 @@ body {
 
 
 
+
+
+
+.rentals-on-market {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 100px;
+  color: #203036;
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  span {
+    opacity: 75%;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+#rental {
+
+  img {
+    margin-top: 0px;
+  }
+}
+
+#last-rental {
+
+  img {
+    margin-top: 0px;
+  }
+}
+
+
+
 /* Newsletter */
 
 .bottom-content {
