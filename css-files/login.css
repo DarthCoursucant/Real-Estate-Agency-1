@@ -34,6 +34,10 @@
     margin-top: 50px;
 }
 
+#login-form-button:hover {
+    background-color: #0C1435;
+}
+
 #login-form-button a {
     text-decoration: none;
     color: red;
