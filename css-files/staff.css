@@ -20,6 +20,7 @@ body {
     }
     p {
         font-size: 25px;
+        margin-right: 5%;
     }
 
     .team-mates {
@@ -109,6 +110,110 @@ body {
     
                     width: 450px;
                     height: 550px;
+
+                    img {
+                        border-radius: 5px 0px 0px 5px;
+                    }
+                }
+            }
+        }
+    }   
+}
+@media (max-width: 1030px) {
+    .meet-the-team {
+
+        .team-mates {
+            .agent {
+                height: 475px;
+                width: 750px;
+    
+                .agent-textbox {
+                    margin-left: 30px;
+    
+                    .contact-info-agent {
+                        margin-top: 75px;
+                    }
+                }
+    
+                .agent-profile-picture {
+    
+                    width: 275px;
+                    height: 475px;
+                }
+            }
+        }
+    }   
+}
+@media (max-width: 820px) {
+    .meet-the-team {
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 5px;
+            margin-top: 0px;
+        }
+        p {
+            font-size: 23px;
+        }
+
+        .team-mates {
+            gap: 10px;
+            .agent {
+                height: 350px;
+                width: 650px;
+    
+                .agent-textbox {
+                    margin-left: 30px;
+                    h4 {
+                        font-size: 25px;
+                    }
+                    p {
+                        font-size: 20px;
+                    }
+    
+                    .contact-info-agent {
+                        margin-top: 50px;
+                        font-size: 20px;
+                    }
+                }
+    
+                .agent-profile-picture {
+    
+                    width: 275px;
+                    height: 350px;
+                }
+            }
+        }
+    }   
+}
+@media (max-width: 704px) {
+    .meet-the-team {
+
+        .team-mates {
+            .agent {
+                height: 275px;
+                width: 550px;
+    
+                .agent-textbox {
+                    margin-left: 30px;
+                    h4 {
+                        font-size: 20px;
+                    }
+                    p {
+                        font-size: 17px;
+                    }
+    
+                    .contact-info-agent {
+                        margin-top: 5px;
+                        font-size: 17px;
+                        gap: 5px;
+                    }
+                }
+    
+                .agent-profile-picture {
+    
+                    width: 200px;
+                    height: 275px;
                 }
             }
         }
