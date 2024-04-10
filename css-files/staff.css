@@ -1,10 +1,14 @@
 .meet-the-team {
-    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    justify-content: center;
     margin-right: 2.5%;
     color: #203036;
     height: 100%;
-    margin-top: 50px;
     margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 3%;
     h1 {
         font-size: 55px;
         margin-bottom: 15px;
@@ -67,6 +71,10 @@
                     width: 100%;
                     object-fit: cover;
                     border-radius: 5px 5px 0px 0px;
+                }
+
+                #off-centered {
+                    object-position: top;
                 }
             }
         }
