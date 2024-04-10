@@ -1,0 +1,13 @@
+#login-container {
+    border-radius: 2px solid #000000;
+    background-color: #203036;
+    width: 950px;
+    height: 300px;
+    margin-left: 250px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 20px;
+}
