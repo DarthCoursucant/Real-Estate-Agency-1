@@ -86,3 +86,31 @@ body {
         }
     }
 }
+
+@media (max-width: 1274px) {
+    .meet-the-team {
+
+        .team-mates {
+            .agent {
+                height: 550px;
+                width: 950px;
+                display: flex;
+                flex-direction: row;
+    
+                .agent-textbox {
+                    margin-left: 30px;
+    
+                    .contact-info-agent {
+                        margin-top: 100px;
+                    }
+                }
+    
+                .agent-profile-picture {
+    
+                    width: 450px;
+                    height: 550px;
+                }
+            }
+        }
+    }   
+}
