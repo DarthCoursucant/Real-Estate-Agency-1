@@ -35,14 +35,14 @@
     border: 2px solid #000000;
 }
 
-#login-form-button:hover, #login-form-create-account-button:hover, #create-account-form-button:hover {
+#login-form-button:hover, #login-form-create-account-button:hover, #create-account-form-button:hover, .problems-again-account-button:hover {
     background-color: #0C1435;
     width: 300px;
     height: 100px;
     border: 2px solid #ffffff;
 }
 
-#login-form-button a:hover, #login-form-create-account-button a:hover, #create-account-form-button a:hover {
+#login-form-button a:hover, #login-form-create-account-button a:hover, #create-account-form-button a:hover, .problems-again-account-button .problems-again-account-button:hover {
     font-size: 70px;
 }
 
