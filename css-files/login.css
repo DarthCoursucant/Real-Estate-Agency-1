@@ -2,7 +2,7 @@
     border-radius: 2px solid #000000;
     background-color: #203036;
     width: 950px;
-    height: 300px;
+    height: 400px;
     margin-left: 250px;
     text-align: center;
     color: #ffffff;
@@ -34,11 +34,31 @@
     margin-top: 50px;
 }
 
-#login-form-button:hover {
+#login-form-button:hover, .#login-form-create-account-button:hover {
     background-color: #0C1435;
+    width: 300px;
+    height: 400px;
 }
 
 #login-form-button a {
+    text-decoration: none;
+    color: red;
+}
+
+#login-form-text {
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#login-form-create-account-button {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 250px;
+    margin-left: 350px;
+}
+
+#login-form-create-account-button a {
     text-decoration: none;
     color: red;
 }
