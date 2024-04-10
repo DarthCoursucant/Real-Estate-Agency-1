@@ -78,4 +78,12 @@
     width: 1400px;
     border-radius: 15px;
     margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-text-login {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
 }
