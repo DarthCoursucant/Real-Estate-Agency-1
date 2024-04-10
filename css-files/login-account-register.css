@@ -133,3 +133,11 @@
     text-align: center;
     margin-left: 50px;
 }
+
+#problems-with-creating-account {
+    background-color: #0C1435;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    width: 900px;
+
+}
