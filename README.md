@@ -2,9 +2,8 @@
 by Amelia, Weronika and (Toby?) :)
 
 WV DOES =
-
+????
 Fixes the already done pages by me.
-Doing Our Team Page
 
 AKB DOES = 
 Buy Page
