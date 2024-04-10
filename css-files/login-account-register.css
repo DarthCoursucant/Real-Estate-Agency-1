@@ -35,11 +35,15 @@
     border: 2px solid #000000;
 }
 
-#login-form-button:hover, #login-form-create-account-button:hover {
+#login-form-button:hover, #login-form-create-account-button:hover, #create-account-form-button:hover {
     background-color: #0C1435;
     width: 300px;
-    height: 400px;
-    border: 2px solid #203036;
+    height: 100px;
+    border: 2px solid #ffffff;
+}
+
+#login-form-button a:hover, #login-form-create-account-button a:hover, #create-account-form-button a:hover {
+    font-size: 70px;
 }
 
 #login-form-button a {
@@ -61,7 +65,7 @@
     border: 2px solid #000000;
 }
 
-#login-form-create-account-button a {
+#login-form-create-account-button a{
     text-decoration: none;
     color: red;
 }
@@ -112,4 +116,20 @@
 #create-account-form input {
     width: 250px;
     height: 15px;
+}
+
+#create-account-form-button {
+    background-color: #ffffff;
+    width: 200px;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 2px solid #000000;
+}
+
+#create-account-form-button a {
+    text-decoration: none;
+    color: red;
+    text-align: center;
+    margin-left: 50px;
 }
