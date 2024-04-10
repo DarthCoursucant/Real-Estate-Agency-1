@@ -139,5 +139,33 @@
     border: 2px solid #000000;
     border-radius: 15px;
     width: 900px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
 
+#problems-with-creating-account p, #problems-with-creating-account h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+#problems-with-creating-account h1 {
+    font-size: 40px;
+}
+
+#problems-with-creating-account p {
+    font-size: 25px;
+}
+
+#problems-creating-account-button {
+    background-color: #ffffff;
+    width: 250px;
+    margin-left: 350px;
+    border: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#problems-creating-account-button a {
+    text-decoration: none;
+    color: red;
 }
