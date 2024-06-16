@@ -162,3 +162,57 @@ h1 {
     transition: 0.25s;
     transform: scale(1.1);
 }
+
+@media (max-width: 1375px) {
+    .position {
+        width: 250px;
+        height: 400px;
+    }
+    
+    .position img {
+        width: 250px;
+        height: 275px;
+    }
+    
+    .position h4 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1175px) {
+    .position {
+        width: 225px;
+        height: 400px;
+    }
+    
+    .position img {
+        width: 225px;
+        height: 275px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .position {
+        width: 200px;
+        height: 350px;
+    }
+    
+    .position img {
+        width: 200px;
+        height: 240px;
+    }
+    
+    .position h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .positions {
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+        gap: 25px;
+    }
+}
