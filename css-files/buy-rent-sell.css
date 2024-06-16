@@ -18,10 +18,11 @@
     display: flex;
     border: 2px solid #000000;
     width: 1400px;
-    margin-left: 15px;
+    margin-left: 55px;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 20px;
+    background-color: #aaaaaa;
 }
 
 .box-title, .asia-box-title, .oceania-box-title, .africa-box-title {
@@ -123,6 +124,7 @@
     height: 100px;
     width: 250px;
     margin-left: 15px;
+    border-radius: 20px;
 }
 
 .hero-italy-image {
@@ -133,6 +135,7 @@ margin-left: -815px;
     margin-left: 15px;
     width: 250px;
     height: 100px;
+    border-radius: 20px;
 }
 
 .hero-irland-image, .hero-belgium-hero, .hero-crotia-image, .hero-wales-image, .hero-austria-image, .hero-protugal-image, .hero-luxemborg-image, .hero-monacco-image, .hero-san-marino-image, .hero-gibrator-image {
@@ -140,6 +143,7 @@ margin-left: -815px;
     width: 250px;
     margin-top: 20px;
     margin-left: 15px;
+    border-radius: 20px;
 }
 
 .category-button {
@@ -155,7 +159,8 @@ margin-left: -815px;
 .category-button {
     font-size: 23px;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
 }
 
 .category-button a {
@@ -166,7 +171,7 @@ margin-left: -815px;
 .hero-text-all {
     text-align: center;
     font-size: 25px;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .hero-text-all a {
@@ -304,6 +309,7 @@ margin-left: -815px;
     width: 250px;
     margin-left: -780px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .hero-philliphs-image, .hero-turkey-image, .hero-sri-lanka-image, .hero-thailand-image, .hero-new-zeland-image, .hero-fiji-image, .hero-solomon-islands-image, .hero-new-guinea-image, .hero-tanzania-image, .hero-morocco-image, .hero-kenya-image, .hero-ghana-image, .hero-canada-image, .hero-brazil-image, .hero-mexico-image, .hero-comlobia-image {
@@ -311,6 +317,7 @@ margin-left: -815px;
     width: 250px;
     margin-left: 20px;
     margin-top: 100px;
+    border-radius: 20px;
 }
 
 .hero-singapore-image, .hero-maledives-image, .hero-armenia-image, .hero-qatar-image, .hero-cyprus-image {
@@ -319,6 +326,7 @@ margin-left: -815px;
     margin-left: 18px;
     margin-top: 10px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .hero-australia-image {
@@ -327,6 +335,7 @@ margin-left: -815px;
     width: 250px;
     margin-left: -820px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .hero-edgypt-image {
@@ -335,6 +344,7 @@ margin-left: -815px;
     width: 250px;
     margin-left: -800px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .hero-usa-image {
@@ -343,6 +353,7 @@ margin-left: -815px;
     width: 250px;
     margin-left: -930px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 .hero-domnician-republic-image, .hero-cuba-image, .hero-jamaica-image, .hero-bahamas-image, .hero-barbados-image {
@@ -350,6 +361,7 @@ margin-left: -815px;
     height: 100px;
     width: 250px;
     margin-left: 20px;
+    border-radius: 20px;
     margin-bottom: 20px;
 }
 
