@@ -3,32 +3,44 @@ body {
 }
 
 
-.front-image {
+.front-top {
     width: 100%;
-    height: 500px;
+    height: 600px;
     top: 0;
     left: 0;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
 }
 
-.main-image {
-
+.front-top img {
     width: 100%;
-    height: 500px;
-}
-
-.main-image img {
-    width: 100%;
-    height: 500px;
+    height: 100%;
     object-fit: cover;
 }
 
-h1 {
-    position: absolute;
-    top: 47%;
+.front-top-content {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.600));
     height: 100%;
+    width: 100%;
 
-    font-size: 100px;
+    position: absolute;
+}
+
+.title {
+    top: 58%;
+    left: 0;
     margin-left: 5%;
+    height: 100%;
+    position: absolute;
+
+}
+
+h1 {
+    font-size: 100px;
     color: white;
 }
 
@@ -36,5 +48,117 @@ h1 {
     margin-left: 5%;
     margin-right: 5%;
     min-height: 100vh;
-    margin-top: 150px;
+    margin-top: 50px;
+    padding-bottom: 200px;
+
+    color: #203036;
+}
+
+.content-positions {
+
+    margin-top: 125px;
+
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-positions h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #203036;
+}
+
+.positions {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.positions a{
+    text-decoration: none;
+    color: white;
+}
+
+.positions a:hover{
+    transition: 0.25s;
+    transform: scale(1.05);
+}
+
+.position {
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 475px;
+    border-radius: 5px;
+
+    background-image: url(/photos/squiggly3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.position img {
+    width: 300px;
+    height: 325px;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.position h4 {
+    font-size: 25px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-bottom {
+    margin-top: 125px;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-bottom p {
+    font-size: 20px;
+}
+
+.content-bottom h4 {
+    margin-bottom: 0px;
+}
+
+.account {
+    margin-top: 50px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.account a {
+    text-decoration: none;
+    color: white;
+}
+
+.create, .login {
+    background-color: #203036;    
+    padding: 5px 15px 5px 15px;
+    border-radius: 99px;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.create:hover, .login:hover {
+    transition: 0.25s;
+    transform: scale(1.1);
 }
