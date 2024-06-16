@@ -97,4 +97,30 @@ color: #ffffff;
   border-radius: 20px;
   border: 2px solid #000000;
   margin-left: 150px;
+  margin-bottom: 30px;
+}
+
+#built-page-header h1, #built-page-paragarh p {
+  color: #ffffff;
+}
+
+.built-page-text {
+  margin-left: 100px;
+  width: 1000px;
+  text-align: center;
+}
+
+.build-page-container-text {
+  background-color: #aaaaaa;
+  width: 1000px;
+  border: 2px solid #000000;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+#build-container-header h1 {
+  font-size: 40px;
+  color: #000000;
 }
