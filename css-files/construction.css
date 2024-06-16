@@ -1,0 +1,92 @@
+/*Text Code*/
+.text {
+  font-size: 17px;
+  margin-left: -20px;
+  padding-top: 10%;
+  float: left;
+  text-align: center;
+}
+
+/*Main Form Setting*/
+.contactform, .checkoutform {
+  background-color: #203036;
+  color: #ffffff;
+  width: 900px;
+  padding: 1em;
+  border: 2px solid #000000;
+  border-radius: 1em;
+}
+
+/*Contact Form In Contact Page Code*/
+.contactform {
+  margin: 50px auto;
+}
+
+/*Checkout Form Code*/
+.checkoutform {
+  margin: 20px;
+}
+
+/*List Settings*/
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+/*Length Of The Text In Form*/
+label {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+}
+
+/*Input Field After This Sign*/
+label::after {
+  content: ":";
+}
+
+/*Input Area Code*/
+input,textarea {
+font: 1em sans-serif;
+width: 500px;
+box-sizing: border-box;
+border: 2px solid #0C1435;
+outline: none;
+background-color: #ffffff;
+border-radius: 20px;
+}
+
+/*Comment Field Code*/
+textarea {
+vertical-align: middle;
+height: 5em;
+resize: vertical;
+resize: none;
+padding-left: 10px;
+}
+
+/*Button In The Form*/
+form a {
+border: 2px solid red;
+background-color: #000000;
+float: auto;
+cursor: pointer;
+border-radius: 15px;
+margin: 200px;
+padding: 10px;
+text-decoration: none;
+color: #ffffff;
+}
+
+.formbutton {
+  margin-left: 220px;
+  width: 900px;
+  margin-top: 20px;
+}
+
+.formbutton a:hover {
+  background-color: #ffffff;
+  color: #000;
+  border: 2px solid green;
+}
