@@ -31,16 +31,28 @@ body {
 }
 
 .title {
-    top: 58%;
+    top: 55%;
     left: 0;
     margin-left: 5%;
+    margin-right: 5%;
     height: 100%;
     position: absolute;
+}
 
+.title h2 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.title span {
+    color: white;
+    margin-top: 0px;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 1px;
+
     color: white;
 }
 
@@ -54,18 +66,31 @@ h1 {
     color: #203036;
 }
 
+.page-content .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titles h2 {
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
 .content-positions {
 
     margin-top: 125px;
 
-    width: 100%;
     justify-content: center;
     align-items: center;
+    background-color: #2030365b;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .content-positions h3 {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
     color: #203036;
 }
 
@@ -84,7 +109,7 @@ h1 {
 }
 
 .positions a:hover{
-    transition: 0.25s;
+    transition: 0.3s;
     transform: scale(1.05);
     background-image: linear-gradient(to top, rgba(8, 96, 57, 0.799), rgba(0, 0, 0, 0)),
     url(/photos/squiggly3.png);
@@ -161,7 +186,7 @@ h1 {
 }
 
 .create:hover, .login:hover {
-    transition: 0.25s;
+    transition: 0.3s;
     transform: scale(1.1);
     background-image: linear-gradient(to top, rgba(8, 96, 57, 0.799), rgba(8, 96, 57, 0.799)),
     url();
