@@ -1,3 +1,53 @@
+.build-form-contact {
+  width: 1000px;
+  background-color: #aaaaaa;
+  display: flex;
+}
+
+#first-name, #last-name {
+  width: 170px;
+}
+
+.first-name-field input, .last-name-field input {
+  font-size: 18px;
+  width: 280px;
+}
+
+.first-name-field, .last-name-field {
+  margin-left: 150px;
+}
+
+.email-field {
+  margin-top: 130px;
+  margin-left: -390px;
+  width: 450px;
+}
+
+.email-field input {
+  width: 400px;
+  font-size: 18px;
+}
+
+.phone-field {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.phone-field input {
+  font-size: 15px;
+  width: 400px;
+}
+
+.message-filed {
+  width: 500px;
+  margin-top: 200px;
+  margin-left: -500px;
+}
+
+.message-filed label {
+  width: 600px;
+}
+
  /*Text Code*/
  .text {
   font-size: 17px;
@@ -7,72 +57,18 @@
   text-align: center;
 }
 
-/*Main Form Setting*/
-.contactform, .checkoutform {
-  background-color: #ffffff;
-  color: #000000;
-  width: 600px;
-  padding: 1em;
+textarea {
+  font: 1em sans-serif;
+  width: 350px;
+  box-sizing: border-box;
   border: 2px solid #000000;
-  border-radius: 1em;
-}
-
-/*Contact Form In Contact Page Code*/
-.contactform {
-  margin: 50px auto;
-}
-
-/*Checkout Form Code*/
-.checkoutform {
-  margin: 20px;
-}
-
-/*List Settings*/
-ul {
-  list-style: none;
-  padding: 10px;
-  margin: 10px;
-}
-
-/*Length Of The Text In Form*/
-label {
-  display: inline-block;
-  width: 200px;
-  text-align: center;
-}
-
-/*Input Field After This Sign*/
-label::after {
-  content: ":";
-}
-
-/*Input Area Code*/
-input,textarea {
-font: 1em sans-serif;
-width: 350px;
-box-sizing: border-box;
-border: 2px solid #000000;
-outline: none;
-background-color: #C0A9BD;
+  outline: none;
 }
 
 /*Comment Field Code*/
 textarea {
-vertical-align: middle;
-height: 5em;
-resize: vertical;
-resize: none;
-}
-
-/*Button In The Form*/
-form a {
-border: 2px solid #C0A9BD;
-background-color: #000000;
-float: auto;
-cursor: pointer;
-border-radius: 15px;
-margin: 200px;
-padding: 10px;
-text-decoration: none;
-color: #ffffff;
+  vertical-align: middle;
+  height: 5em;
+  resize: vertical;
+  resize: none;
 }
