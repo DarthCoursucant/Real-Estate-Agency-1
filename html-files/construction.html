@@ -34,27 +34,30 @@
     <!--Content-->
     <main class="page-body">
 <!--Contact Form-->
-<form action="succesfulcontact.html" class="contactform">
-    <ul>
-        <li>
-            <label for="name">Enter Your Name</label>
-            <input type="text" id="name" name="user_name">
-        </li>
-        <br>
-        <li>
-            <label for="mail">Enter Your E-mail</label>
-            <input type="email" id="mail" name="user_email"/>
-        </li>
-        <br>
-        <li>
-            <label for="message">Enter Your Message To Us</label>
-            <textarea id="message" name="user_message"></textarea>
-        </li>
-        <br>
-        <li class="formbutton">
-            <a href="succesfulcontact.html" type="submit">Send Your Message</a>
-        </li>
-    </ul>
+<form class="build-form-contact">
+    <div class="first-name-field">
+        <label for="first-name">Enter Your First Name</label>
+        <input type="text" id="first-name" name="user_name">
+    </div>
+    <div class="last-name-field">
+        <label for="last-name">Enter Your Last Name</label>
+        <input type="text" id="last-name" name="user_name">
+    </div>
+    <div class="email-field">
+        <label for="mail">Enter Your E-mail</label>
+        <input type="email" id="mail" name="user_email">
+    </div>
+    <div class="phone-field">
+        <label for="phone-number">Enter Your Phone Number (Including Country Code)</label>
+        <input type="email" id="mail" name="user_email">
+    </div>
+    <div class="message-filed">
+        <label for="message">Enter Your Message About Where You Want To Live, How Many Square Metre House You Want, And Your Price Range</label>
+        <textarea id="message" name="user_message"></textarea>
+    </div>
+    <div class="build-form-button">
+        <a href="#">Submitt</a>
+    </div>
 </form>
 
     </main>
